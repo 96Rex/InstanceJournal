@@ -1,0 +1,91 @@
+## Interface: 11200
+## Title: Instance Journal (|cffabd473TurtleWoW|r)
+## Version: 1.0.0
+## Author: Walter Bennet
+## Notes: A reimagining of World of Warcraft's original Encounter Journal, built for |cffabd473TurtleWoW|r!
+## SavedVariablesPerCharacter: IJ_FirstTimeBindingDone
+## URL: https://github.com/Arthur-Helias/InstanceJournal
+
+# Localization
+locale\InstanceJournal-enUS.lua
+locale\InstanceJournal-deDE.lua
+locale\InstanceJournal-esES.lua
+locale\InstanceJournal-frFR.lua
+locale\InstanceJournal-ptBR.lua
+locale\InstanceJournal-ruRU.lua
+locale\InstanceJournal-zhCN.lua
+
+InstanceJournalLib.lua
+InstanceJournalDB.lua
+
+# POI Databases
+db\pois\brm.lua
+db\pois\deadmines.lua
+db\pois\cot.lua
+db\pois\gates.lua
+db\pois\sm.lua
+db\pois\gnomeregan.lua
+db\pois\ulda.lua
+db\pois\dm.lua
+db\pois\wc.lua
+db\pois\mara.lua
+db\pois\whc.lua
+db\pois\th.lua
+db\pois\tt.lua
+
+# Dungeon Databases
+db\dungeons\rfc.lua
+db\dungeons\stockades.lua
+db\dungeons\deadmines.lua
+db\dungeons\sv.lua
+db\dungeons\bm.lua
+db\dungeons\smgy.lua
+db\dungeons\smlib.lua
+db\dungeons\smarm.lua
+db\dungeons\smcath.lua
+db\dungeons\zf.lua
+db\dungeons\st.lua
+db\dungeons\bfd.lua
+db\dungeons\gnomeregan.lua
+db\dungeons\ulda.lua
+db\dungeons\dmn.lua
+db\dungeons\dmw.lua
+db\dungeons\dme.lua
+db\dungeons\brd.lua
+db\dungeons\lbrs.lua
+db\dungeons\ubrs.lua
+db\dungeons\wc.lua
+db\dungeons\mara.lua
+db\dungeons\rfk.lua
+db\dungeons\rfd.lua
+db\dungeons\scholo.lua
+db\dungeons\sfk.lua
+db\dungeons\strat.lua
+db\dungeons\gc.lua
+db\dungeons\cg.lua
+db\dungeons\hq.lua
+db\dungeons\kc.lua
+db\dungeons\dmr.lua
+db\dungeons\swr.lua
+db\dungeons\fh.lua
+db\dungeons\whc.lua
+
+# Raid Databases
+db\raids\zg.lua
+db\raids\mc.lua
+db\raids\bwl.lua
+db\raids\es.lua
+db\raids\kara40.lua
+db\raids\kara10.lua
+db\raids\ony.lua
+db\raids\aq20.lua
+db\raids\aq40.lua
+db\raids\naxx.lua
+db\raids\world.lua
+db\raids\th.lua
+
+# Main
+InstanceJournal.lua
+InstanceJournalFrame.lua
+InstanceJournalMap.lua
+InstanceJournal.xml
