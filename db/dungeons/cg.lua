@@ -28,7 +28,7 @@ CG.MaxLevel = 39
 CG.Entrances = {
     [1] = {
         MapContinentId = IMI.Kalimdor,
-        MapZoneId = IZI.Azshara,
+        MapZoneId = IZI.Ashenvale,
         MapCoordinateX = 51.0,
         MapCoordinateY = 77.3,
     },
