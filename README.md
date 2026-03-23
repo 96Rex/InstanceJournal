@@ -1,19 +1,18 @@
-# Instance Journal
+# 副本手册
 
-Instance Journal is a reimagining of World of Warcraft's original Encounter Journal, built for TurtleWoW.  
-You can access the journal by pressing Shift+J by default, or by rebinding the key in the key binding menu.
+副本手册是魔兽世界原生风格的复刻版.
+默认情况下,您可以通过按Shift+J来打开窗口.(您也可以在按键设置里手动修改成自己喜欢的快捷键)
 
-## Features
+## 特点
 
-- Lists all dungeons and raids, including custom TurtleWoW content
-- Details every boss's abilities and loot
-- Allows linking abilities and loot in the chat
-- Provides a search bar for quickly finding any item, ability, instance, or boss
-- Integrates instance entrances and bosses onto the world map; click any boss to open their encounter in the journal
-- Improves the overall world map experience
-- Localized in enUS, deDE, esES, frFR, ptBR, ruRU, and zhCN
-
-## Screenshots
+- 列出所有副本和团本,包括乌龟服新增内容.
+- 详细说明每个BOSS的能力和战利品.
+- 允许在聊天中链接技能和战利品.
+- 提供一个搜索栏,可以快速找到任何物品、技能、副本、BOSS
+- 在世界地图上显示副本入口和世界BOSS位置;在副本地图上显示所有BOSS位置,点击可查看战利品列表.
+- 改善了整个世界地图的体验
+- 多种本地化语言支持
+## 截图
 
 <details>
 <summary>Instance List</summary>
@@ -34,81 +33,39 @@ You can access the journal by pressing Shift+J by default, or by rebinding the k
 <img width="600" height="427" alt="map-instance-bosses" src="https://github.com/user-attachments/assets/713da654-6fbd-4c79-a401-b593112ea7e1" />
 </details>
 
-## Installation
+## 如何安装
 
-### Turtle WoW Launcher (**Recommended**)
+### 乌龟服启动器 (**推荐**)
   
-1. Open the Turtle WoW Launcher and navigate to the `ADDONS` tab at the top.
-2. Press the `Add new addon` button and paste the following URL into the field: `https://github.com/Arthur-Helias/InstanceJournal.git`.
-3. Enable the addon from the addons menu on the character selection screen.
+1. 打开乌龟服启动器，导航到顶部的“插件”选项卡
+2. 按下“添加新插件”按钮并将以下URL粘贴到字段中：“https://github.com/96Rex/InstanceJournal.git”
+3. 在角色选择屏幕上的插件菜单中启用插件
 
-### Manual installation
+### 手动安装
   
-1. Download the [latest version](https://github.com/Arthur-Helias/InstanceJournal/archive/refs/heads/master.zip) of the addon.
-2. Extract the archive.
-3. Rename the folder from "InstanceJournal-master" to "InstanceJournal".
-4. Copy the renamed folder into `WoW-Directory\Interface\AddOns`.
-5. Enable the addon from the addons menu on the character selection screen.
+1. 下载[最新版本](https://github.com/Arthur-Helias/InstanceJournal/archive/refs/heads/master.zip) 
+2. 解压文件
+3. 将文件夹从“InstanceJournal-master”重命名为“InstanceJournal”
+4. 将重命名的文件夹复制到“WoW-Directory\Interface\AddOns”中
+5. 在角色选择屏幕上的插件菜单中启用插件。
 
-## Compatibility
+## 兼容性
 
-This addon was designed and tested for TurtleWoW. It should be compatible with virtually every addon. If this isn't the case, please report it through the `Issues` tab on this repository.
+这个插件是为TurtleWoW设计和测试的。它应该与几乎所有的插件兼容。如果出现不兼容情况，请通过此存储库的“问题”选项卡提交异常。
 
-## Known Issues
+## 已知问题
 
-- Some instance maps do not display the full zone area (LBRS/UBRS, Scholomance, ...). Unfortunately, this is a current engine limitation
-- Some lore descriptions may be inaccurate
-- Most encounter abilities are missing and some may have incorrect details
+- 一些副本内部地图没有明确分层（黑石塔上层/下层, 通灵学院）,游戏客户端限制,目前无法兼容.
+- 一些描述不太准确
+- 大多数BOSS技能缺失，有些可能有不正确的细节
 
-Please report any issues you encounter through the `Issues` tab on this repository.
+请通过此存储库上的“问题”选项卡报告您遇到的任何问题。
 
-## Planned Features
+## 未来计划
 
-- Finishing the abilities for every encounter
-- A tab listing of all the quests related to a specific instance
-- A marker for each boss in an instance on the world map indicating if they have already been killed or not
-- A companion addon that adds customization options, a minimap button, chat commands, and more
+- 完善每个BOSS技能
+- 每个地下城相关的任务
+- 在世界地图上为世界BOSS添加标签,显示是否被击杀
+- 增加一个伴生插件，额外的自定义选项，一个小地图按钮，聊天命令，和更多
 
-## Contributing
 
-This addon covers a large amount of data, and any help maintaining accuracy is appreciated!  
-If you notice any of the following, please consider opening an issue or submitting a pull request:
-
-- Incorrect lore or story elements such as boss descriptions or instance lore summaries
-- Missing, outdated, or incorrect abilities for a boss's encounter
-- Loot inaccuracies such as items missing, assigned to the wrong boss, attributed with the wrong equipment slot or equipment type, or otherwise incorrect
-
-Even small corrections are helpful. If you're unsure how to contribute, opening an issue with the details is already a massive help.
-
-## Addon Recommendations
-
-Here are a few addons that complement this one without conflicts:
-
-- [Magnify](https://github.com/lookino/Magnify) - Adds the ability to zoom on the world map
-- [ModernMapMarkers](https://github.com/tilare/ModernMapMarkers) - Places markers on the world map to show the locations of instances, world bosses, and transportation
-- [ZonesLevel](https://github.com/Arthur-Helias/ZonesLevel) - Adds zone level ranges to your world map
-- [Better Character Panel](https://github.com/Arthur-Helias/BetterCharacterPanel) - Improves the character and inspect panel
-
-## Attribution
-
-No original Blizzard Encounter Journal code was used; the addon was recreated from scratch using screenshots and gameplay as reference. Some UI elements were repurposed from Blizzard's original journal.
-
-## Credits
-
-[Walter Bennet](https://github.com/Arthur-Helias) - Addon creation  
-[Blizzard](https://www.blizzard.com) - Original Encounter Journal, UI elements  
-[Speedz](https://forum.turtlecraft.gg/viewtopic.php?t=14904) - Boss artwork assistance  
-[cat-nep](https://github.com/cat-nep) - Ability writing assistance  
-[byCFM2](https://github.com/byCFM2) - AtlasTW Data  
-[tilare](https://github.com/tilare)
-
-## License
-
-The code in this project is dedicated to the public domain under the [Unlicense](LICENSE).  
-You are free to copy, modify, and distribute it for any purpose, with or without attribution.
-
-Please note that some UI assets used in this addon are the intellectual property of
-[Blizzard Entertainment](https://www.blizzard.com) and are included without their explicit
-authorization. These assets are **not** covered by the Unlicense and remain subject to
-Blizzard's own copyright. This project is a fan-made, non-commercial addon with no
-affiliation with or endorsement by Blizzard Entertainment or Turtle WoW.
