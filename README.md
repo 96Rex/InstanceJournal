@@ -3,6 +3,16 @@
 副本手册是魔兽世界原生风格的复刻版.
 默认情况下,您可以通过按Shift+J来打开窗口.(您也可以在按键设置里手动修改成自己喜欢的快捷键)
 
+
+## 注意
+此复刻版本只支持中文语言客户端,未来考虑反向兼容英文语言客户端!!!
+
+此复刻版本只支持中文语言客户端,未来考虑反向兼容英文语言客户端!!!!!!!
+
+此复刻版本只支持中文语言客户端,未来考虑反向兼容英文语言客户端!!!!!!!!!
+
+
+
 ## 特点
 
 - 列出所有副本和团本,包括乌龟服新增内容.
@@ -15,12 +25,12 @@
 ## 截图
 
 <details>
-<summary>Instance List</summary>
+<summary>主界面</summary>
 <img width="600" height="377" alt="dungeons-tab" src="https://github.com/user-attachments/assets/38777084-313a-436c-ba8a-54cf33d53964" />
 <img width="600" height="377" alt="raids-tab" src="https://github.com/user-attachments/assets/ef03b4a4-976a-4a90-a830-83f6fc015f80" />
 </details>
 <details>
-<summary>Instance Tabs</summary>
+<summary>地下城内容界面</summary>
 <img width="634" height="377" alt="instance-overview-tab" src="https://github.com/user-attachments/assets/903b18a6-52bc-418a-86d7-ebfcfc8c688e" />
 <img width="634" height="377" alt="abilities-tab" src="https://github.com/user-attachments/assets/a6c8535b-5b45-431a-a81c-d6c0a382480b" />
 <img width="634" height="377" alt="instance-loot-tab" src="https://github.com/user-attachments/assets/bde67b61-e7f6-4d20-ab93-ab696dc1ec41" />
@@ -28,7 +38,7 @@
 <img width="600" height="377" alt="search-result" src="https://github.com/user-attachments/assets/664671fa-a119-4e12-b105-8ef53261bc71" />
 </details>
 <details>
-<summary>World Map Additions</summary>
+<summary>世界地图标注</summary>
 <img width="600" height="427" alt="map-world-entrances" src="https://github.com/user-attachments/assets/37b067da-007a-4089-925c-660ad615ce78" />
 <img width="600" height="427" alt="map-instance-bosses" src="https://github.com/user-attachments/assets/713da654-6fbd-4c79-a401-b593112ea7e1" />
 </details>
@@ -58,6 +68,15 @@
 - 一些副本内部地图没有明确分层（黑石塔上层/下层, 通灵学院）,游戏客户端限制,目前无法兼容.
 - 一些描述不太准确
 - 大多数BOSS技能缺失，有些可能有不正确的细节
+- 双手武器会错误的出现在一些职业分类里(例如选择法师职业时会显示双手剑,因为代码逻辑没有判断单双手)
+
+## 与原作者不同的地方
+
+- 因为语言环境的原因搜索功能限制为BOSS名字,后续修复到所有内容
+- 副本/团本排序方式按照手动排序(原本为名称A-Z降序)
+- 地下城内容界面默认显示战利品列表(原本为地下城介绍)
+- 战利品列表默认显示所有职业(原本为自动选择当前角色职业)
+
 
 请通过此存储库上的“问题”选项卡报告您遇到的任何问题。
 
