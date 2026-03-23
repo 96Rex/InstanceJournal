@@ -53,7 +53,7 @@
 
 ### 手动安装
   
-1. 下载[最新版本](https://github.com/Arthur-Helias/InstanceJournal/archive/refs/heads/master.zip) 
+1. 下载[最新版本](https://codeload.github.com/96Rex/InstanceJournal/zip/refs/heads/master.zip) 
 2. 解压文件
 3. 将文件夹从“InstanceJournal-master”重命名为“InstanceJournal”
 4. 将重命名的文件夹复制到“WoW-Directory\Interface\AddOns”中
