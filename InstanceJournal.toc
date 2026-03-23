@@ -1,30 +1,15 @@
 ## Interface: 11200
 ## Title: Instance Journal (|cffabd473TurtleWoW|r)
-## Title-deDE: Instanzjournal (|cffabd473TurtleWoW|r)
-## Title-esES: Diario de Instancia (|cffabd473TurtleWoW|r)
-## Title-frFR: Journal d'Instance (|cffabd473TurtleWoW|r)
-## Title-ptBR: Diário de Instância (|cffabd473TurtleWoW|r)
-## Title-ruRU: Журнал Подземелий (|cffabd473TurtleWoW|r)
 ## Title-zhCN: 副本日志 (|cffabd473TurtleWoW|r)
 ## Version: 1.1.3
 ## Author: Walter Bennet
 ## Notes: A reimagining of World of Warcraft's original Encounter Journal, built for |cffabd473TurtleWoW|r!
-## Notes-deDE: Eine Neuinterpretation des originalen Begegnungsjournals von World of Warcraft, entwickelt für |cffabd473TurtleWoW|r!
-## Notes-esES: ¡Una reimaginación del Diario de Encuentros original de World of Warcraft, creado para |cffabd473TurtleWoW|r!
-## Notes-frFR: Une réimagination du Journal des Rencontres original de World of Warcraft, conçu pour |cffabd473TurtleWoW|r !
-## Notes-ptBR: Uma reimaginação do Diário de Encontros original de World of Warcraft, criado para |cffabd473TurtleWoW|r!
-## Notes-ruRU: Переосмысление оригинального Журнала встреч World of Warcraft, созданное для |cffabd473TurtleWoW|r!
-## Notes-zhCN: 对《魔兽世界》原版遭遇日志的重新演绎，专为 |cffabd473TurtleWoW|r 打造！
-## SavedVariablesPerCharacter: IJ_FirstTimeBindingDone
-## X-URL: https://github.com/Arthur-Helias/InstanceJournal
+## Notes-zhCN: 对《魔兽世界》原版副本日志的复刻版，专为 |cffabd473TurtleWoW|r 打造！
+## SavedVariables: IJ_FirstTimeBindingDone
+## X-URL: https://github.com/96Rex/InstanceJournal
 
 # Localization
 locale\InstanceJournal-enUS.lua
-locale\InstanceJournal-deDE.lua
-locale\InstanceJournal-esES.lua
-locale\InstanceJournal-frFR.lua
-locale\InstanceJournal-ptBR.lua
-locale\InstanceJournal-ruRU.lua
 locale\InstanceJournal-zhCN.lua
 
 InstanceJournalLib.lua

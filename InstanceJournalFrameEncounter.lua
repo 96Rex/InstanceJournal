@@ -1,3 +1,4 @@
+--填充首页副本网格
 function IJ_PopulateInstanceGrid()
     local grid = IJ_InstanceGridChild
     local scroll = IJ_InstanceGridScroll
@@ -24,44 +25,129 @@ function IJ_PopulateInstanceGrid()
     for _, entry in pairs(sourceList) do
         local shouldAdd = false
 
+        -- ================== 修改代码开始 ==================
         if currentFilter == "ALL" then
             shouldAdd = true
         else
-            local hasEntrance = false
-
+            -- 检查副本是否有入口
             if entry.Entrances then
+                -- 遍历所有入口，只要有一个在当前大陆就显示
                 for _, ent in pairs(entry.Entrances) do
-                    hasEntrance = true
-
-                    local mapContinentName = nil
-
-                    if ent.MapContinentId == "1" then
-                        mapContinentName = IJLib.Continents.Kalimdor
-                    elseif ent.MapContinentId == "2" then
-                        mapContinentName = IJLib.Continents.EasternKingdoms
+                    local continentId = ent.MapContinentId
+                    
+                    if continentId then
+                        if currentFilter == IJLib.Continents.Kalimdor and continentId == 1 then
+                            shouldAdd = true
+                            break
+                        elseif currentFilter == IJLib.Continents.EasternKingdoms and continentId == 2 then
+                            shouldAdd = true
+                            break
+                        end
                     end
-
-                    if mapContinentName == currentFilter then
-                        shouldAdd = true
-                    end
-
-                    break
                 end
-            end
-
-            if not hasEntrance then
+            else
+                -- 没有入口的副本（如世界BOSS）总是显示
                 shouldAdd = true
             end
         end
+        -- ================== 修改代码结束 ==================
 
         if shouldAdd then
             table.insert(list, entry)
         end
     end
+	
+	-- 列表排序(名字A到Z)
+    -- table.sort(list, function(a, b)
+        -- return (a.Name or "") < (b.Name or "")
+    -- end)
+	
+	-- 列表排序(按等级)
+	-- table.sort(list, function(a, b)
+		-- local aLevel = a.MinLevel or 0
+		-- local bLevel = b.MinLevel or 0
+		-- if aLevel ~= bLevel then
+			-- return aLevel < bLevel  -- 按最低等级排序
+		-- end
+		-- return (a.Name or "") < (b.Name or "")
+	-- end)
+	
 
-    table.sort(list, function(a, b)
-        return (a.Name or "") < (b.Name or "")
-    end)
+	-- 自定义排序
+	local priorityOrder = {
+		--副本
+		["怒焰裂谷"] = 1,
+		["霜鬃山谷"] = 2,
+		["哀嚎洞穴"] = 3,
+		["死亡矿井"] = 4,
+
+		["影牙城堡"] = 5,
+		["黑暗深渊"] = 6,
+		["监狱"] = 7,
+		["风角峡谷"] = 8,
+
+		["龙喉居所"] = 9,
+		["诺莫瑞根"] = 10,
+		["剃刀沼泽"] = 11,
+		["剃刀高地"] = 12,
+
+		["血色修道院（墓地）"] = 13,
+		["血色修道院（图书馆）"] = 14,
+		["血色修道院（军械库）"] = 15,
+		["血色修道院（大教堂）"] = 16,
+		
+		["新月林地"] = 17,
+		["风暴废墟"] = 18,
+		["奥达曼"] = 19,
+		["祖尔法拉克"] = 20,
+
+		["吉尔尼斯城"] = 21,
+		["玛拉顿"] = 22,
+		["沉没的神庙"] = 23,
+		["仇恨熔炉"] = 24,
+
+		["黑石深渊"] = 25,
+		["厄运之槌（东）"] = 26,
+		["厄运之槌（西）"] = 27,
+		["厄运之槌（北）"] = 28,
+		
+		["黑石塔下层"] = 29,
+		["黑石塔上层"] = 30,
+		["通灵学院"] = 31,
+		["斯坦索姆"] = 32,
+		
+		["卡拉赞墓穴"] = 33,
+		["暴风城地牢"] = 34,
+		["黑色沼泽"] = 35,
+
+		--团本
+		
+		["卡拉赞大厅"] = 1,
+		["安其拉废墟"] = 2,
+		["祖尔格拉布"] = 3,
+		["奥妮克希亚的巢穴"] = 4,
+
+		["熔火之心"] = 5,
+		["黑翼之巢"] = 6,
+		["纳克萨玛斯"] = 7,
+		["世界BOSS"] = 8,
+
+		["木喉要塞"] = 9,
+		["安其拉神殿"] = 10,
+		["卡拉赞之塔"] = 11,
+		["翡翠圣殿"] = 12,
+
+
+	}
+	table.sort(list, function(a, b)
+		local aOrder = priorityOrder[a.Name] or 999
+		local bOrder = priorityOrder[b.Name] or 999
+		if aOrder ~= bOrder then
+			return aOrder < bOrder
+		end
+		return (a.Name or "") < (b.Name or "")
+	end)
+
 
     local col = 0
     local row = 0
@@ -140,7 +226,7 @@ function IJ_PopulateInstanceGrid()
         scroll:UpdateScrollBar()
     end
 end
-
+--填充具体副本信息
 function IJ_PopulateInstanceInfo(instance)
     local child = IJ_InstanceChild
 
@@ -174,7 +260,7 @@ function IJ_PopulateInstanceInfo(instance)
         IJ_InstanceScroll:UpdateScrollBar()
     end
 end
-
+--填充具体领主列表
 function IJ_PopulateBossList(instance)
     local child = IJ_BossListChild
 
@@ -278,7 +364,7 @@ function IJ_PopulateBossList(instance)
         IJ_UpdateInfoTabs()
     end
 end
-
+--点击领主时
 function IJ_ShowBoss(boss)
     if IJ_BossPortraitTex then
         IJ_BossPortraitTex:SetTexture(boss.Portrait)
@@ -301,7 +387,25 @@ function IJ_ShowBoss(boss)
         IJ_IsIstanceTabActive = false
     end
 
+	IJ_ActiveInfoTab = 2--默认打开战利品列表 20260323 Tokai
     IJ_UpdateInfoTabs()
+
+
+    -- ================== 修复下拉列表勾选状态 ==================
+    -- 更新BOSS下拉菜单的状态
+    if IJ_BossNavDropDown then
+        UIDropDownMenu_SetSelectedValue(IJ_BossNavDropDown, boss)
+        UIDropDownMenu_SetText(boss.Name or "", IJ_BossNavDropDown)
+    end
+    
+    -- 更新BOSS导航栏
+    if IJ_BossNavBar and IJ_BossNavBar.text then
+        IJ_BossNavBar.text:SetText(boss.Name or "")
+    end
+
+    -- 更新全局变量
+    IJ_CurrentBoss = boss
+    -- ================== 修复下拉列表勾选状态 ==================
 
     local selectedIndex = nil
 
@@ -347,9 +451,36 @@ function IJ_ShowBoss(boss)
         scrollBar:SetValue(newScroll)
     end
 end
-
+--点击副本时
 function IJ_ShowEncounter(instance)
     IJ_SelectedInstance = instance
+
+    -- ================== 修复下拉列表勾选状态 ==================
+    -- 更新副本下拉菜单的状态
+    if IJ_InstanceNavDropDown then
+        UIDropDownMenu_SetSelectedValue(IJ_InstanceNavDropDown, instance)
+        UIDropDownMenu_SetText(instance.Name or "", IJ_InstanceNavDropDown)
+    end
+    
+    -- 清除BOSS下拉菜单的选中状态
+    if IJ_BossNavDropDown then
+        UIDropDownMenu_SetSelectedValue(IJ_BossNavDropDown, nil)
+        UIDropDownMenu_SetText("", IJ_BossNavDropDown)
+    end
+    
+    -- 清除BOSS相关状态
+    IJ_CurrentBoss = nil
+    
+    -- 清除BOSS导航栏
+    if IJ_BossNavBar and IJ_BossNavBar.text then
+        IJ_BossNavBar.text:SetText("")
+    end
+    
+    -- 清除BOSS名字栏
+    if IJ_BossNameLabel then
+        IJ_BossNameLabel:SetText("")
+    end
+    -- ================== 修复下拉列表勾选状态 ==================
 
     if IJ_SearchResultsPanel then
         IJ_SearchResultsPanel:Hide()
@@ -370,11 +501,16 @@ function IJ_ShowEncounter(instance)
     if IJ_HomeButton then
         IJ_HomeButton:Enable()
     end
-
+	
     IJ_PopulateInstanceInfo(instance)
     IJ_PopulateBossList(instance)
+	
+	-- ================== 修复下拉列表勾选状态 ==================
+    -- 更新导航栏
+    IJ_UpdateNavBars()
+    -- ================== 修复下拉列表勾选状态 ==================
 end
-
+--点击首页时
 function IJ_ShowInstanceSelect()
     if IJ_SearchResultsPanel then
         IJ_SearchResultsPanel:Hide()
@@ -403,7 +539,7 @@ function IJ_ShowInstanceSelect()
     if IJ_InstanceSelectHeader then
         IJ_InstanceSelectHeader:SetText(IJ_ShowRaids and IJ_GUI_TABRAIDS or IJ_GUI_TABDUNGEONS)
     end
-
+	
     local currentFilter = IJ_ShowRaids and IJ_FilterContinent_Raid or IJ_FilterContinent_Dungeon
 
     if IJ_ContinentFilterDropDown then

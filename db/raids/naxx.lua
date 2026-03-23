@@ -637,7 +637,7 @@ NAXX.Bosses = {
                 DropChance = 20,
                 LevelRequirement = 60,
             },
-            [10] = {
+			[10] = {
                 Id = "42167",
                 Icon = "INV_Misc_MonsterSpiderCarapace_01",
                 Name = IJ_LOOT_NAME_42167,

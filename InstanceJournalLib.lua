@@ -6,14 +6,14 @@ IJLib.MediaPathRaids = "raids\\"
 IJLib.MediaPathPois = "pois\\"
 IJLib.MediaPathPortrait = "-portrait"
 IJLib.MediaPathFrame = "-frame"
-
+--入口图标类型
 IJLib.EntranceIconType = {
     Up = "map-icon-up",
     Down = "map-icon-down",
     Left = "map-icon-left",
     Right = "map-icon-right",
 }
-
+--颜色
 IJLib.Colors = {
     Red = { Hex = "|cffdb2121", RGB = { 0.85, 0.1, 0.1 } },
     LightRed = { Hex = "|cffffaaaa", RGB = { 1.0, 0.66, 0.66 } },
@@ -39,7 +39,7 @@ IJLib.Colors = {
     White = { Hex = "|cffffffff", RGB = { 1.0, 1.0, 1.0 } },
     Black = { Hex = "|cff000000", RGB = { 0, 0, 0 } },
 }
-
+--道具品质
 IJLib.Quality = {
     Poor = IJLib.Colors.MediumGray,
     Common = IJLib.Colors.White,
@@ -48,7 +48,7 @@ IJLib.Quality = {
     Epic = IJLib.Colors.Purple,
     Legendary = IJLib.Colors.DarkerOrange,
 }
-
+--道具部位
 IJLib.ItemSlot = {
     Head = IJ_ITEMSLOT_HEAD,
     Neck = IJ_ITEMSLOT_NECK,
@@ -87,7 +87,7 @@ IJLib.ItemSlot = {
     Quiver = IJ_ITEMSLOT_QUIVER,
     Key = IJ_ITEMSLOT_KEY,
 }
-
+--道具类型
 IJLib.ItemType = {
     Polearm = IJ_ITEMTYPE_POLEARM,
     Staff = IJ_ITEMTYPE_STAFF,
@@ -125,12 +125,12 @@ IJLib.ItemType = {
     Bullet = IJ_ITEMTYPE_BULLET,
     Arrow = IJ_ITEMTYPE_ARROW,
 }
-
+--大陆
 IJLib.Continents = {
     Kalimdor = IJ_CONTINENT_KALIMDOR,
     EasternKingdoms = IJ_CONTINENT_EASTERNKINGDOMS,
 }
-
+--副本
 IJLib.MapId = {
     World = 0,
     Kalimdor = 1,
@@ -180,102 +180,112 @@ IJLib.MapId = {
     WindhornCanyon = 45,
     FrostmaneHollow = 46,
 }
-
+--区域
 IJLib.ZoneId = {
     None = 0,
-    AlahThalas = 1,
-    AlteracMountains = 2,
-    ArathiHighlands = 3,
-    Badlands = 4,
-    Balor = 5,
-    BlackrockMountain = 6,
-    BlastedLands = 7,
-    BurningSteppes = 8,
-    DeadwindPass = 9,
-    DunMorogh = 10,
-    Duskwood = 11,
-    EasternPlaguelands = 12,
-    ElwynnForest = 13,
-    GillijimsIsle = 14,
-    Gilneas = 15,
-    Gnomeregan = 16,
-    GrimReaches = 17,
-    HillsbradFoothills = 18,
-    Ironforge = 19,
-    LapidisIsle = 20,
-    LochModan = 21,
-    Northwind = 22,
-    RedridgeMountains = 23,
-    ScarletEnclave = 24,
-    ScarletMonastery = 25,
-    SearingGorge = 26,
-    SilverpineForest = 27,
-    StormwindCity = 28,
-    StranglethornVale = 29,
-    SwampOfSorrows = 30,
-    ThalassianHighlands = 31,
-    TheDeadmines = 32,
-    TheHinterlands = 33,
-    TirisfalGlades = 34,
-    Uldaman = 35,
-    Undercity = 36,
-    WesternPlaguelands = 37,
-    Westfall = 38,
-    Wetlands = 39,
-    Ashenvale = 1,
-    Azshara = 2,
-    BlackstoneIsland = 3,
-    CavernsOfTime = 4,
-    Darkshore = 5,
-    Darnassus = 6,
-    Desolace = 7,
-    DireMaul = 8,
-    Durotar = 9,
-    DustwallowMarsh = 10,
-    Felwood = 11,
-    Feralas = 12,
-    GMIsland = 13,
-    GatesOfAhnQiraj = 14,
-    Hyjal = 15,
-    IcepointRock = 16,
-    Maraudon = 17,
-    Moonglade = 18,
-    MoonwhisperCoast = 19,
-    Mulgore = 20,
-    Orgrimmar = 21,
-    Silithus = 22,
-    StonetalonMountains = 23,
-    Tanaris = 24,
-    TelAbim = 25,
-    Teldrassil = 26,
-    TheBarrens = 27,
-    ThousandNeedles = 28,
-    ThunderBluff = 29,
-    TimbermawHold = 30,
-    TimbermawTunnels = 31,
-    UnGoroCrater = 32,
-    WailingCaverns = 33,
-    WindhornCaverns = 34,
-    Winterspring = 35,
+	--东部王国
+    EasternPlaguelands = 1,		--东瘟疫之地	
+    DunMorogh = 2,				--丹莫罗
+    GrimReaches = 3,			--冷酷海岸
+    Northwind = 4,				--北风领
+    GillijimsIsle = 5,			--吉利吉姆岛
+    Gilneas = 6,				--吉尔尼斯
+    AlteracMountains = 7,		--奥特兰克山脉
+    Uldaman = 8,				--奥达曼
+    Balor = 9,					--巴洛
+    HillsbradFoothills = 10,	--希尔斯布莱德丘陵
+    Undercity = 11,				--幽暗城
+    SwampOfSorrows = 12,		--悲伤沼泽
+    LapidisIsle = 13,			--拉匹迪斯之岛
+    TirisfalGlades = 14,		--提瑞斯法林地
+	Duskwood = 15,				--暮色森林
+    StormwindCity = 16,			--暴风城
+    TheDeadmines = 17,			--死亡矿井
+    LochModan = 18,				--洛克莫丹
+    Wetlands = 19,				--湿地
+    SearingGorge = 20,			--灼热峡谷
+    BurningSteppes = 21,			--燃烧平原
+	ElwynnForest = 22,			--艾尔文森林
+    StranglethornVale = 23,		--荆棘谷
+    Badlands = 24,				--荒芜之地
+    ThalassianHighlands = 25,	--萨拉斯高地
+    ScarletMonastery = 26,		--血色修道院
+    ScarletEnclave = 27,		--血色领地
+    WesternPlaguelands = 28,	--西瘟疫之地
+    Westfall = 29,				--西部荒野
+    BlastedLands = 30,			--诅咒之地
+    Gnomeregan = 31,			--诺莫瑞根
+    RedridgeMountains = 32,		--赤脊山
+    TheHinterlands = 33,		--辛特兰
+    DeadwindPass = 34,			--逆风小径
+    Ironforge = 35,				--铁炉堡
+    SilverpineForest = 36,		--银松森林
+    AlahThalas = 37,			--阿尔萨拉斯
+    ArathiHighlands = 38,		--阿拉希高地
+    BlackrockMountain = 39,		--黑石山
+	--卡利姆多
+    GMIsland = 1,--GM岛
+    Winterspring = 2,--冬泉谷
+    IcepointRock = 3,--冰岩点
+    Desolace = 4,--凄凉之地
+    ThousandNeedles = 5,--千针石林
+    DireMaul = 6,--厄运之槌
+    WailingCaverns = 7,--哀嚎洞穴
+    Tanaris = 8,--塔纳利斯
+    Orgrimmar = 9,--奥格瑞玛
+    GatesOfAhnQiraj = 10,--安其拉之门
+    UnGoroCrater = 11,--安戈洛环形山
+    DustwallowMarsh = 12,--尘泥沼泽
+    Silithus = 13,--希利苏斯
+    CavernsOfTime = 14,--时光之穴
+	Moonglade = 15,--月光林地
+	MoonwhisperCoast = 16,--月语海岸
+	TimbermawHold = 17,--木喉要塞
+	TimbermawTunnels = 18,--木喉隧道
+	Durotar = 19,--杜隆塔尔
+	TelAbim = 20,--泰拉比姆
+    Teldrassil = 21,--泰达希尔
+    Hyjal = 22,--海加尔山
+    Ashenvale = 23,--灰谷
+	Maraudon = 24,--玛拉顿
+    StonetalonMountains = 25,--石爪山脉
+    Azshara = 26,--艾萨拉
+    Mulgore = 27,--莫高雷
+    Feralas = 28,--菲拉斯
+    TheBarrens = 29,--贫瘠之地
+    Felwood = 30,--费伍德森林
+    Darnassus = 31,--达纳苏斯
+    ThunderBluff = 32,--雷霆崖
+    WindhornCaverns = 33,--风角洞穴
+    Darkshore = 34,--黑海岸
+    BlackstoneIsland = 35,--黑石岛
+	
+	--地下城内部分层
     BM1 = 1,
     BM2 = 2,
+	
     AQ401 = 1,
     AQ402 = 2,
+	
     KARA401 = 1,
     KARA402 = 2,
-    NAXX1 = 1,
-    NAXX2 = 2,
+	
+    NAXX1 = 2,
+    NAXX2 = 1,
+	
     SMArm = 1,
-    SMCath = 2,
+	SMLib = 2,
     SMGy = 3,
-    SMLib = 4,
-}
+    SMCath = 4,
 
+
+}
+--阵营
 IJLib.Factions = {
     Alliance = IJ_FACTION_ALLIANCE,
     Horde = IJ_FACTION_HORDE,
 }
-
+--种族
 IJLib.Races = {
     Human = IJ_RACE_HUMAN,
     Dwarf = IJ_RACE_DWARF,
@@ -288,7 +298,7 @@ IJLib.Races = {
     Undead = IJ_RACE_UNDEAD,
     Goblin = IJ_RACE_GOBLIN,
 }
-
+--职业
 IJLib.Classes = {
     Warrior = IJ_CLASS_WARRIOR,
     Mage = IJ_CLASS_MAGE,
@@ -300,7 +310,7 @@ IJLib.Classes = {
     Paladin = IJ_CLASS_PALADIN,
     Shaman = IJ_CLASS_SHAMAN,
 }
-
+--技能标签
 IJLib.AbilityFlags = {
     Tank = {
         Tooltip = IJ_ABILITYFLAG_TANK,
@@ -347,11 +357,11 @@ IJLib.AbilityFlags = {
         Icon = IJLib.MediaPath .. "ui\\flag-disease",
     },
 }
-
+--挑战模式
 IJLib.Challenges = {
     LevelOneLunatic = IJ_CHALLENGES_LEVELONELUNATIC,
 }
-
+--地下城类型
 IJLib.InstanceType = {
     Dungeon = IJ_GUI_DUNGEON,
     Raid = IJ_GUI_RAID,
@@ -397,7 +407,7 @@ IJLib.ClassUnlocalizedLinks = {
 IJLib.RaceGearLinks = {
     [IJR.NightElf] = { IJIT.Bow, IJIS.Ranged, IJIS.Projectile, IJIS.Arrow, },
 }
-
+--道具分类到职业
 IJLib.ClassGearLinks = {
     [IJC.Druid] = { IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Dagger, IJIT.FistWeapon, IJIT.Staff, IJIT.Mace, IJIT.TwoHandedMace, IJIT.Cloth, IJIT.Leather, IJIT.Idol, IJIS.Relic, IJIS.HeldInOffHand },
     [IJC.Hunter] = { IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Bow, IJIT.Arrow, IJIT.Crossbow, IJIT.Gun, IJIT.Bullet, IJIT.Axe, IJIT.TwoHandedAxe, IJIT.Dagger, IJIT.Staff, IJIT.Polearm, IJIT.Sword, IJIT.TwoHandedSword, IJIT.FistWeapon, IJIT.ThrownWeapon, IJIT.Cloth, IJIT.Leather, IJIT.Mail, IJIS.Ranged, IJIS.OffHand, IJIS.Projectile },
@@ -409,7 +419,7 @@ IJLib.ClassGearLinks = {
     [IJC.Warlock] = { IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Wand, IJIT.Staff, IJIT.Sword, IJIT.Dagger, IJIT.Cloth, IJIS.Ranged, IJIS.HeldInOffHand },
     [IJC.Warrior] = { IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Bow, IJIT.Arrow, IJIT.Crossbow, IJIT.Dagger, IJIT.FistWeapon, IJIT.Gun, IJIT.Bullet, IJIT.Polearm, IJIT.Axe, IJIT.TwoHandedAxe, IJIT.Mace, IJIT.TwoHandedMace, IJIT.Sword, IJIT.TwoHandedSword, IJIT.Staff, IJIT.ThrownWeapon, IJIT.Cloth, IJIT.Leather, IJIT.Mail, IJIT.Plate, IJIT.Shield, IJIS.Ranged, IJIS.OffHand, IJIS.HeldInOffHand, IJIS.Projectile },
 }
-
+--职业颜色
 IJLib.ClassColorLinks = {
     [IJC.Druid] = IJCL.DarkOrange,
     [IJC.Hunter] = IJCL.Pistachio,
@@ -421,7 +431,7 @@ IJLib.ClassColorLinks = {
     [IJC.Warlock] = IJCL.LightPurple,
     [IJC.Warrior] = IJCL.Tan,
 }
-
+--玩具类
 IJLib.NonMainSlotsLinks = {
     [IJIS.Pet] = true,
     [IJIS.Transmog] = true,

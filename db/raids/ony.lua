@@ -120,7 +120,7 @@ ONY.Bosses = {
                 DropChance = 11,
                 LevelRequirement = 60,
             },
-            [9] = {
+			[9] = {
                 Id = "33149",
                 Icon = "battle_standard_of_the_broodcommander_2",
                 Name = IJ_LOOT_NAME_33149,
@@ -242,7 +242,7 @@ ONY.Bosses = {
                         Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18431,
                         Flags = { IMAF.Important, },
                     },
-                    [5] = {
+					                    [5] = {
                         Id = "onyxianhatcher",
                         Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_onyxianhatcher,
                         Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_onyxianhatcher,

@@ -43,7 +43,7 @@ AQ40.Links = {
         OriginMapCoordinateY = 62.9,
         DestinationMapContinentId = IMI.TempleOfAhnQiraj,
         DestinationMapZoneId = IZI.AQ401,
-        Type = IJLib.EntranceIconType.Up,
+        Type = IJLib.EntranceIconType.Down,
         Name = IJ_DB_RAID_AQ40_LINK_AQ,
     },
     [2] = {

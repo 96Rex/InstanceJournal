@@ -1185,7 +1185,7 @@ KARA10.Bosses = {
                 ItemSlot = IS.Quest,
                 DropChance = 3,
             },
-            [30] = {
+			[30] = {
                 Id = "42166",
                 Icon = "Ability_Hunter_BeastCall",
                 Name = IJ_LOOT_NAME_42166,

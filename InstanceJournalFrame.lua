@@ -116,7 +116,7 @@ function IJ_InstanceJournalFrame_OnLoad()
     IJ_InstanceNavBar:SetPoint("LEFT", IJ_HomeButton, "RIGHT", -18, 0)
     IJ_InstanceNavBar.arrow:SetScript("OnClick", function()
         UIDropDownMenu_Initialize(IJ_InstanceNavDropDown, IJ_InstanceNavDropDown_Initialize)
-        ToggleDropDownMenu(1, nil, IJ_InstanceNavDropDown, IJ_InstanceNavBar.arrow, 0, 0)
+        ToggleDropDownMenu(1, nil, IJ_InstanceNavDropDown, IJ_InstanceNavBar.arrow, 0, -600)
     end)
 
     IJ_InstanceNavBar:SetScript("OnClick", function()
@@ -169,17 +169,18 @@ function IJ_InstanceJournalFrame_OnLoad()
     classDD:SetPoint("RIGHT", slotDD, "LEFT", 25, 0)
     UIDropDownMenu_SetWidth(110, classDD)
     UIDropDownMenu_Initialize(classDD, IJ_ClassFilterDropDown_Initialize)
-
+	
+	
     local _, classToken = UnitClass("player")
     local initialClassVal = "ALL"
+	-- 不再默认筛选当前职业可用 20260323 Tokai
+    -- for classVal, unlocToken in pairs(IJLib.ClassUnlocalizedLinks) do
+        -- if unlocToken == classToken then
+            -- initialClassVal = classVal
 
-    for classVal, unlocToken in pairs(IJLib.ClassUnlocalizedLinks) do
-        if unlocToken == classToken then
-            initialClassVal = classVal
-
-            break
-        end
-    end
+            -- break
+        -- end
+    -- end
 
     local initialText = initialClassVal
 
