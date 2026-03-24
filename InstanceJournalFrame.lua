@@ -173,14 +173,14 @@ function IJ_InstanceJournalFrame_OnLoad()
 	
     local _, classToken = UnitClass("player")
     local initialClassVal = "ALL"
-	-- 不再默认筛选当前职业可用 20260323 Tokai
-    -- for classVal, unlocToken in pairs(IJLib.ClassUnlocalizedLinks) do
-        -- if unlocToken == classToken then
-            -- initialClassVal = classVal
 
-            -- break
-        -- end
-    -- end
+    for classVal, unlocToken in pairs(IJLib.ClassUnlocalizedLinks) do
+        if unlocToken == classToken then
+            initialClassVal = classVal
+
+            break
+        end
+    end
 
     local initialText = initialClassVal
 
