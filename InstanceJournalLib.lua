@@ -204,7 +204,7 @@ IJLib.ZoneId = {
     LochModan = 18,				--洛克莫丹
     Wetlands = 19,				--湿地
     SearingGorge = 20,			--灼热峡谷
-    BurningSteppes = 21,			--燃烧平原
+    BurningSteppes = 21,		--燃烧平原
 	ElwynnForest = 22,			--艾尔文森林
     StranglethornVale = 23,		--荆棘谷
     Badlands = 24,				--荒芜之地
@@ -224,41 +224,41 @@ IJLib.ZoneId = {
     ArathiHighlands = 38,		--阿拉希高地
     BlackrockMountain = 39,		--黑石山
 	--卡利姆多
-    GMIsland = 1,--GM岛
-    Winterspring = 2,--冬泉谷
-    IcepointRock = 3,--冰岩点
-    Desolace = 4,--凄凉之地
-    ThousandNeedles = 5,--千针石林
-    DireMaul = 6,--厄运之槌
-    WailingCaverns = 7,--哀嚎洞穴
-    Tanaris = 8,--塔纳利斯
-    Orgrimmar = 9,--奥格瑞玛
-    GatesOfAhnQiraj = 10,--安其拉之门
-    UnGoroCrater = 11,--安戈洛环形山
-    DustwallowMarsh = 12,--尘泥沼泽
-    Silithus = 13,--希利苏斯
-    CavernsOfTime = 14,--时光之穴
-	Moonglade = 15,--月光林地
-	MoonwhisperCoast = 16,--月语海岸
-	TimbermawHold = 17,--木喉要塞
-	TimbermawTunnels = 18,--木喉隧道
-	Durotar = 19,--杜隆塔尔
-	TelAbim = 20,--泰拉比姆
-    Teldrassil = 21,--泰达希尔
-    Hyjal = 22,--海加尔山
-    Ashenvale = 23,--灰谷
-	Maraudon = 24,--玛拉顿
-    StonetalonMountains = 25,--石爪山脉
-    Azshara = 26,--艾萨拉
-    Mulgore = 27,--莫高雷
-    Feralas = 28,--菲拉斯
-    TheBarrens = 29,--贫瘠之地
-    Felwood = 30,--费伍德森林
-    Darnassus = 31,--达纳苏斯
-    ThunderBluff = 32,--雷霆崖
-    WindhornCaverns = 33,--风角洞穴
-    Darkshore = 34,--黑海岸
-    BlackstoneIsland = 35,--黑石岛
+    GMIsland = 1,				--GM岛
+    Winterspring = 2,			--冬泉谷
+    IcepointRock = 3,			--冰岩点
+    Desolace = 4,				--凄凉之地
+    ThousandNeedles = 5,		--千针石林
+    DireMaul = 6,				--厄运之槌
+    WailingCaverns = 7,			--哀嚎洞穴
+    Tanaris = 8,				--塔纳利斯
+    Orgrimmar = 9,				--奥格瑞玛
+    GatesOfAhnQiraj = 10,		--安其拉之门
+    UnGoroCrater = 11,			--安戈洛环形山
+    DustwallowMarsh = 12,		--尘泥沼泽
+    Silithus = 13,				--希利苏斯
+    CavernsOfTime = 14,			--时光之穴
+	Moonglade = 15,				--月光林地
+	MoonwhisperCoast = 16,		--月语海岸
+	TimbermawHold = 17,			--木喉要塞
+	TimbermawTunnels = 18,		--木喉隧道
+	Durotar = 19,				--杜隆塔尔
+	TelAbim = 20,				--泰拉比姆
+    Teldrassil = 21,			--泰达希尔
+    Hyjal = 22,					--海加尔山
+    Ashenvale = 23,				--灰谷
+	Maraudon = 24,				--玛拉顿
+    StonetalonMountains = 25,	--石爪山脉
+    Azshara = 26,				--艾萨拉
+    Mulgore = 27,				--莫高雷
+    Feralas = 28,				--菲拉斯
+    TheBarrens = 29,			--贫瘠之地
+    Felwood = 30,				--费伍德森林
+    Darnassus = 31,				--达纳苏斯
+    ThunderBluff = 32,			--雷霆崖
+    WindhornCaverns = 33,		--风角洞穴
+    Darkshore = 34,				--黑海岸
+    BlackstoneIsland = 35,		--黑石岛
 	
 	--地下城内部分层
     BM1 = 1,
@@ -277,9 +277,18 @@ IJLib.ZoneId = {
 	SMLib = 2,
     SMGy = 3,
     SMCath = 4,
-
-
 }
+
+local currentLocale = GetLocale()
+
+if currentLocale == "zhCN" and IJ_ZoneId_zhCN then
+    IJLib.ZoneId = IJ_ZoneId_zhCN
+end
+
+IJ_ZoneId_zhCN = nil
+
+
+
 --阵营
 IJLib.Factions = {
     Alliance = IJ_FACTION_ALLIANCE,

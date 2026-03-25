@@ -1,4 +1,3 @@
---填充首页副本网格
 function IJ_PopulateInstanceGrid()
     local grid = IJ_InstanceGridChild
     local scroll = IJ_InstanceGridScroll
@@ -226,7 +225,7 @@ function IJ_PopulateInstanceGrid()
         scroll:UpdateScrollBar()
     end
 end
---填充具体副本信息
+
 function IJ_PopulateInstanceInfo(instance)
     local child = IJ_InstanceChild
 
@@ -260,7 +259,7 @@ function IJ_PopulateInstanceInfo(instance)
         IJ_InstanceScroll:UpdateScrollBar()
     end
 end
---填充具体领主列表
+
 function IJ_PopulateBossList(instance)
     local child = IJ_BossListChild
 
@@ -364,7 +363,7 @@ function IJ_PopulateBossList(instance)
         IJ_UpdateInfoTabs()
     end
 end
---点击领主时
+
 function IJ_ShowBoss(boss)
     if IJ_BossPortraitTex then
         IJ_BossPortraitTex:SetTexture(boss.Portrait)
@@ -451,7 +450,7 @@ function IJ_ShowBoss(boss)
         scrollBar:SetValue(newScroll)
     end
 end
---点击副本时
+
 function IJ_ShowEncounter(instance)
     IJ_SelectedInstance = instance
 
@@ -510,7 +509,7 @@ function IJ_ShowEncounter(instance)
     IJ_UpdateNavBars()
     -- ================== 修复下拉列表勾选状态 ==================
 end
---点击首页时
+
 function IJ_ShowInstanceSelect()
     if IJ_SearchResultsPanel then
         IJ_SearchResultsPanel:Hide()

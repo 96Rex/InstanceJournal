@@ -37,6 +37,7 @@ KARA40.Entrances = {
 }
 KARA40.Links = {
     [1] = {
+		Name = IJ_DB_RAID_KARA40_LINK_ROCK,
 		OriginMapContinentId = IMI.UpperKarazhanHalls,
         OriginMapZoneId = IZI.KARA401,
         OriginMapCoordinateX = 76.1,
@@ -54,7 +55,6 @@ KARA40.Links = {
         DestinationMapContinentId = IMI.UpperKarazhanHalls,
         DestinationMapZoneId = IZI.KARA401,
         Type = IJLib.EntranceIconType.Down,
-        Name = IJ_DB_RAID_KARA40_LINK_ROCK,
     },
 }
 KARA40.Bosses = {

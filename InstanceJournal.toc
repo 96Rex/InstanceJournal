@@ -1,7 +1,7 @@
 ## Interface: 11200
 ## Title: Instance Journal (|cffabd473TurtleWoW|r)
 ## Title-zhCN: 副本日志 (|cffabd473TurtleWoW|r)
-## Version: 1.1.3
+## Version: 1.1.4
 ## Author: Walter Bennet
 ## Notes: A reimagining of World of Warcraft's original Encounter Journal, built for |cffabd473TurtleWoW|r!
 ## Notes-zhCN: 对《魔兽世界》原版副本日志的复刻版，专为 |cffabd473TurtleWoW|r 打造！
