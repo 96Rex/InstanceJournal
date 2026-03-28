@@ -2246,26 +2246,6 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_ONY_BOSS_NAME_axelus = "Командир выводка Акселус"
     IJ_DB_RAID_ONY_BOSS_STORY_axelus =
     "Выводок не рассказывает о своих командирах посторонним, а командир выводка Акселус — меньше всего."
-    IJ_DB_RAID_TH_BOSS_NAME_aaaaa = "Неизвестный босс"
-    IJ_DB_RAID_TH_BOSS_STORY_aaaaa = "Об этом существе ничего не известно..."
-    IJ_DB_RAID_TH_BOSS_NAME_bbbbb = "Неизвестный босс"
-    IJ_DB_RAID_TH_BOSS_STORY_bbbbb = "Об этом существе ничего не известно..."
-    IJ_DB_RAID_TH_BOSS_NAME_ccccc = "Неизвестный босс"
-    IJ_DB_RAID_TH_BOSS_STORY_ccccc = "Об этом существе ничего не известно..."
-    IJ_DB_RAID_TH_BOSS_NAME_ddddd = "Неизвестный босс"
-    IJ_DB_RAID_TH_BOSS_STORY_ddddd = "Об этом существе ничего не известно..."
-    IJ_DB_RAID_TH_BOSS_NAME_eeeee = "Неизвестный босс"
-    IJ_DB_RAID_TH_BOSS_STORY_eeeee = "Об этом существе ничего не известно..."
-    IJ_DB_RAID_TH_BOSS_NAME_hhhhh = "Неизвестный босс"
-    IJ_DB_RAID_TH_BOSS_STORY_hhhhh = "Об этом существе ничего не известно..."
-    IJ_DB_RAID_TH_BOSS_NAME_iiiii = "Неизвестный босс"
-    IJ_DB_RAID_TH_BOSS_STORY_iiiii = "Об этом существе ничего не известно..."
-    IJ_DB_RAID_TH_BOSS_NAME_fffff = "Неизвестный босс"
-    IJ_DB_RAID_TH_BOSS_STORY_fffff = "Об этом существе ничего не известно..."
-    IJ_DB_RAID_TH_BOSS_NAME_ggggg = "Неизвестный босс"
-    IJ_DB_RAID_TH_BOSS_STORY_ggggg = "Об этом существе ничего не известно..."
-    IJ_DB_RAID_TH_BOSS_NAME_jjjjj = "Неизвестный босс"
-    IJ_DB_RAID_TH_BOSS_STORY_jjjjj = "Об этом существе ничего не известно..."
     IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha = "Тан'ша Блестящая"
     IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout = "Устрашающий крик"
     IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout =
@@ -2353,4 +2333,31 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_rainoffire = "Огненный дождь"
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire =
     "Ониксийский Хэтчер выпускает огненные дожди, которые появляются по комнате, нанося тяжелый урон от огня всем врагам внутри."
+    IJ_DB_RAID_TH_BOSS_NAME_karrsh = "Каррш Страж"
+    IJ_DB_RAID_TH_BOSS_STORY_karrsh =
+    "Страж стоит на страже того, что стоит защитить. То, что Каррш охраняет сейчас во тьме Крепости Древесной Пасти, никто не вернулся и не сообщил об этом."
+    IJ_DB_RAID_TH_BOSS_NAME_rotgrowl = "Гнилой рык"
+    IJ_DB_RAID_TH_BOSS_STORY_rotgrowl =
+    "Нет титула. Никакой истории. Только имя, вокруг которого, кажется, выросли туннели, как будто оно всегда было здесь."
+    IJ_DB_RAID_TH_BOSS_NAME_loktanag = "Локтанаг Подлый"
+    IJ_DB_RAID_TH_BOSS_STORY_loktanag =
+    "Эпитет кто-то дал. При каких обстоятельствах и дожили ли они до сожаления о близости, не сообщается."
+    IJ_DB_RAID_TH_BOSS_NAME_trioch = "Триох Пожиратель"
+    IJ_DB_RAID_TH_BOSS_STORY_trioch =
+    "То, что поглотил Триох и что от него осталось, — это вопросы, которые Крепость Древесной Пасти проглотила вместе со всем остальным."
+    IJ_DB_RAID_TH_BOSS_NAME_selenaxx = "Селенакс Грязное Сердце"
+    IJ_DB_RAID_TH_BOSS_STORY_selenaxx =
+    "Было ли сердце всегда грязным или стало таковым в этих стенах, пещеры не делают различия между ними."
+    IJ_DB_RAID_TH_BOSS_NAME_ormanos = "Орманос Треснутый"
+    IJ_DB_RAID_TH_BOSS_STORY_ormanos =
+    "Что-то сломалось. Трюм не помнит ни того, что это было, ни того, что его сломало — только то, что Орманос остался после."
+    IJ_DB_RAID_TH_BOSS_NAME_partath = "Вождь Парат"
+    IJ_DB_RAID_TH_BOSS_STORY_partath =
+    "Он возглавляет то, чем стал трюм. Привел ли он его туда или просто унаследовал руины, туннели не делают разницы."
+    IJ_DB_RAID_TH_BOSS_NAME_kronn = "Верховный друид Кронн"
+    IJ_DB_RAID_TH_BOSS_STORY_kronn =
+    "Титул Верховного друида говорит о том, чему когда-то посвятил себя Кронн. Пары, доносящиеся из Крепости Древесной Пасти, говорят о том, чему он сейчас посвящает себя."
+    IJ_DB_RAID_TH_BOSS_NAME_ursol = "Урсол"
+    IJ_DB_RAID_TH_BOSS_STORY_ursol =
+    "Урсол был богом дикой природы, близнецом Урсока, любимым среди фурболгов еще до Раскола. Он был многим. То, чем он является сейчас, не предвещалось в старых текстах."
 end

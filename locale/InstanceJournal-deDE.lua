@@ -2249,26 +2249,6 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_ONY_BOSS_NAME_axelus = "Brutkommandant Axelus"
     IJ_DB_RAID_ONY_BOSS_STORY_axelus =
     "Die Brut spricht mit Außenstehenden nicht über ihre Kommandeure – am allerwenigsten mit Brutkommandant Axelus."
-    IJ_DB_RAID_TH_BOSS_NAME_aaaaa = "Unbekannter Chef"
-    IJ_DB_RAID_TH_BOSS_STORY_aaaaa = "Über diese Entität ist nichts bekannt..."
-    IJ_DB_RAID_TH_BOSS_NAME_bbbbb = "Unbekannter Chef"
-    IJ_DB_RAID_TH_BOSS_STORY_bbbbb = "Über diese Entität ist nichts bekannt..."
-    IJ_DB_RAID_TH_BOSS_NAME_ccccc = "Unbekannter Chef"
-    IJ_DB_RAID_TH_BOSS_STORY_ccccc = "Über diese Entität ist nichts bekannt..."
-    IJ_DB_RAID_TH_BOSS_NAME_ddddd = "Unbekannter Chef"
-    IJ_DB_RAID_TH_BOSS_STORY_ddddd = "Über diese Entität ist nichts bekannt..."
-    IJ_DB_RAID_TH_BOSS_NAME_eeeee = "Unbekannter Chef"
-    IJ_DB_RAID_TH_BOSS_STORY_eeeee = "Über diese Entität ist nichts bekannt..."
-    IJ_DB_RAID_TH_BOSS_NAME_hhhhh = "Unbekannter Chef"
-    IJ_DB_RAID_TH_BOSS_STORY_hhhhh = "Über diese Entität ist nichts bekannt..."
-    IJ_DB_RAID_TH_BOSS_NAME_iiiii = "Unbekannter Chef"
-    IJ_DB_RAID_TH_BOSS_STORY_iiiii = "Über diese Entität ist nichts bekannt..."
-    IJ_DB_RAID_TH_BOSS_NAME_fffff = "Unbekannter Chef"
-    IJ_DB_RAID_TH_BOSS_STORY_fffff = "Über diese Entität ist nichts bekannt..."
-    IJ_DB_RAID_TH_BOSS_NAME_ggggg = "Unbekannter Chef"
-    IJ_DB_RAID_TH_BOSS_STORY_ggggg = "Über diese Entität ist nichts bekannt..."
-    IJ_DB_RAID_TH_BOSS_NAME_jjjjj = "Unbekannter Chef"
-    IJ_DB_RAID_TH_BOSS_STORY_jjjjj = "Über diese Entität ist nichts bekannt..."
     IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha = "Tan'sha die Schlanke"
     IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout = "Einschüchternder Schrei"
     IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout =
@@ -2356,4 +2336,31 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_rainoffire = "Feuerregen"
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire =
     "Onyxian Hatcher wirft Feuerregen, die im Raum erscheinen und allen darin befindlichen Feinden schweren Feuerschaden zufügen."
+    IJ_DB_RAID_TH_BOSS_NAME_karrsh = "Karrsh der Wächter"
+    IJ_DB_RAID_TH_BOSS_STORY_karrsh =
+    "Ein Wächter wacht über etwas, das es zu schützen gilt. Niemand ist zurückgekehrt, um darüber zu berichten, was Karrsh jetzt in der Dunkelheit der Holzschlundfeste bewacht."
+    IJ_DB_RAID_TH_BOSS_NAME_rotgrowl = "Rotgrowl"
+    IJ_DB_RAID_TH_BOSS_STORY_rotgrowl =
+    "Kein Titel. Keine Geschichte. Nur ein Name, um den die Tunnel herumgewachsen zu sein scheinen, als ob er schon immer da wäre."
+    IJ_DB_RAID_TH_BOSS_NAME_loktanag = "Loktanag der Abscheuliche"
+    IJ_DB_RAID_TH_BOSS_STORY_loktanag =
+    "Der Beiname wurde von jemandem gegeben. Unter welchen Umständen und ob sie die Nähe noch bereuen mussten, ist nicht überliefert."
+    IJ_DB_RAID_TH_BOSS_NAME_trioch = "Trioch der Verschlinger"
+    IJ_DB_RAID_TH_BOSS_STORY_trioch =
+    "Was Trioch verzehrt hat und was davon übrig bleibt, sind Fragen, die Timbermaw Hold zusammen mit allem anderen geschluckt hat."
+    IJ_DB_RAID_TH_BOSS_NAME_selenaxx = "Selenaxx Foulheart"
+    IJ_DB_RAID_TH_BOSS_STORY_selenaxx =
+    "Ob das Herz schon immer verdorben war oder es innerhalb dieser Mauern wurde, die Höhlen unterscheiden nicht zwischen beiden."
+    IJ_DB_RAID_TH_BOSS_NAME_ormanos = "Ormanos der Gebrochene"
+    IJ_DB_RAID_TH_BOSS_STORY_ormanos =
+    "Etwas ist kaputt gegangen. Die Festung erinnert sich weder daran, was sie war, noch daran, was sie zerstört hat – nur daran, dass Ormanos danach geblieben ist."
+    IJ_DB_RAID_TH_BOSS_NAME_partath = "Häuptling Partath"
+    IJ_DB_RAID_TH_BOSS_STORY_partath =
+    "Er führt, was aus der Festung geworden ist. Ob er es dorthin führte oder nur die Ruine erbte, ist ein Unterschied, den die Tunnel nicht machen."
+    IJ_DB_RAID_TH_BOSS_NAME_kronn = "Erzdruide Kronn"
+    IJ_DB_RAID_TH_BOSS_STORY_kronn =
+    "Der Titel Erzdruide spiegelt wider, wofür sich Kronn einst engagierte. Die Dämpfe, die aus der Holzschlundfestung strömen, verraten, wofür er sich jetzt widmet."
+    IJ_DB_RAID_TH_BOSS_NAME_ursol = "Ursol"
+    IJ_DB_RAID_TH_BOSS_STORY_ursol =
+    "Ursol war ein Gott der Wildnis, der Zwilling von Ursoc und seit der Teilung bei den Furbolgs beliebt. Er war vieles. Was er jetzt ist, haben die alten Texte nicht vorhergesehen."
 end

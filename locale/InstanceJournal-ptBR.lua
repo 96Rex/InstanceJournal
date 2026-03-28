@@ -2250,26 +2250,6 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_ONY_BOSS_NAME_axelus = "Comandante de ninhada Axelus"
     IJ_DB_RAID_ONY_BOSS_STORY_axelus =
     "A ninhada não fala de seus comandantes para estranhos - muito menos o comandante da ninhada Axelus."
-    IJ_DB_RAID_TH_BOSS_NAME_aaaaa = "Chefe desconhecido"
-    IJ_DB_RAID_TH_BOSS_STORY_aaaaa = "Nada se sabe sobre esta entidade..."
-    IJ_DB_RAID_TH_BOSS_NAME_bbbbb = "Chefe desconhecido"
-    IJ_DB_RAID_TH_BOSS_STORY_bbbbb = "Nada se sabe sobre esta entidade..."
-    IJ_DB_RAID_TH_BOSS_NAME_ccccc = "Chefe desconhecido"
-    IJ_DB_RAID_TH_BOSS_STORY_ccccc = "Nada se sabe sobre esta entidade..."
-    IJ_DB_RAID_TH_BOSS_NAME_ddddd = "Chefe desconhecido"
-    IJ_DB_RAID_TH_BOSS_STORY_ddddd = "Nada se sabe sobre esta entidade..."
-    IJ_DB_RAID_TH_BOSS_NAME_eeeee = "Chefe desconhecido"
-    IJ_DB_RAID_TH_BOSS_STORY_eeeee = "Nada se sabe sobre esta entidade..."
-    IJ_DB_RAID_TH_BOSS_NAME_hhhhh = "Chefe desconhecido"
-    IJ_DB_RAID_TH_BOSS_STORY_hhhhh = "Nada se sabe sobre esta entidade..."
-    IJ_DB_RAID_TH_BOSS_NAME_iiiii = "Chefe desconhecido"
-    IJ_DB_RAID_TH_BOSS_STORY_iiiii = "Nada se sabe sobre esta entidade..."
-    IJ_DB_RAID_TH_BOSS_NAME_fffff = "Chefe desconhecido"
-    IJ_DB_RAID_TH_BOSS_STORY_fffff = "Nada se sabe sobre esta entidade..."
-    IJ_DB_RAID_TH_BOSS_NAME_ggggg = "Chefe desconhecido"
-    IJ_DB_RAID_TH_BOSS_STORY_ggggg = "Nada se sabe sobre esta entidade..."
-    IJ_DB_RAID_TH_BOSS_NAME_jjjjj = "Chefe desconhecido"
-    IJ_DB_RAID_TH_BOSS_STORY_jjjjj = "Nada se sabe sobre esta entidade..."
     IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha = "Tan'sha, a Elegante"
     IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout = "Grito Intimidador"
     IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout =
@@ -2357,4 +2337,31 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_rainoffire = "Chuva de Fogo"
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire =
     "Onyxian Hatcher lança chuvas de fogo que aparecem ao redor da sala, causando grande dano de fogo a qualquer inimigo dentro dela."
+    IJ_DB_RAID_TH_BOSS_NAME_karrsh = "Karrsh, o Sentinela"
+    IJ_DB_RAID_TH_BOSS_STORY_karrsh =
+    "Uma sentinela vigia algo que vale a pena proteger. O que Karrsh guarda agora na escuridão do Forte Presaferro ninguém voltou para relatar."
+    IJ_DB_RAID_TH_BOSS_NAME_rotgrowl = "Rotgrowl"
+    IJ_DB_RAID_TH_BOSS_STORY_rotgrowl =
+    "Sem título. Sem história. Apenas um nome em torno do qual os túneis parecem ter crescido, como se sempre estivesse ali."
+    IJ_DB_RAID_TH_BOSS_NAME_loktanag = "Loktanag, o Vil"
+    IJ_DB_RAID_TH_BOSS_STORY_loktanag =
+    "O epíteto foi dado por alguém. Em que circunstâncias, e se viveram para se arrepender da proximidade, não está registado."
+    IJ_DB_RAID_TH_BOSS_NAME_trioch = "Trioque, o Devorador"
+    IJ_DB_RAID_TH_BOSS_STORY_trioch =
+    "O que Trioch consumiu, e o que resta dele, são questões que o Forte Presaferro engoliu junto com todo o resto."
+    IJ_DB_RAID_TH_BOSS_NAME_selenaxx = "Selenaxx Coração Sujo"
+    IJ_DB_RAID_TH_BOSS_STORY_selenaxx =
+    "Se o coração sempre foi imundo, ou se tornou assim dentro destas paredes, as cavernas não distinguem entre os dois."
+    IJ_DB_RAID_TH_BOSS_NAME_ormanos = "Ormanos, o Rachado"
+    IJ_DB_RAID_TH_BOSS_STORY_ormanos =
+    "Algo quebrou. O porão não se lembra do que era, nem do que o quebrou - apenas que Ormanos permaneceu depois."
+    IJ_DB_RAID_TH_BOSS_NAME_partath = "Chefe Partath"
+    IJ_DB_RAID_TH_BOSS_STORY_partath =
+    "Ele lidera o que o domínio se tornou. Se ele o conduziu até lá ou apenas herdou a ruína, é uma distinção que os túneis não fazem."
+    IJ_DB_RAID_TH_BOSS_NAME_kronn = "Arquidruida Kronn"
+    IJ_DB_RAID_TH_BOSS_STORY_kronn =
+    "O título de Arquidruida fala daquilo a que Kronn uma vez se dedicou. Os vapores que saem do Forte Presamaw falam do que ele se dedica agora."
+    IJ_DB_RAID_TH_BOSS_NAME_ursol = "Ursol"
+    IJ_DB_RAID_TH_BOSS_STORY_ursol =
+    "Ursol era um deus da selva, gêmeo de Ursoc, amado entre os pelursos desde antes da Separação. Ele era muitas coisas. O que ele é agora é algo que os textos antigos não previram."
 end

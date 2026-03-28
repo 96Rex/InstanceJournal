@@ -4895,26 +4895,33 @@ IJ_DB_RAID_TH_STORY =
 "As ancient as Kalimdor itself, this enigmatic labyrinthine network of tunnels and caves beneath Mount Hyjal has been the home of the Furbolgs since well before the Sundering. Its halls are sacred among the tribes, a place of worship to their progenitors, the twin gods Ursoc and Ursol. Nowadays however, only wafts of putrid vapors escape the rotten caverns and whispers of venerating a foul god echo throughout Timbermaw Hold..."
 
 -- TH Bosses
-IJ_DB_RAID_TH_BOSS_NAME_aaaaa = "Unknown Boss"
-IJ_DB_RAID_TH_BOSS_STORY_aaaaa = "Nothing is known about this entity..."
-IJ_DB_RAID_TH_BOSS_NAME_bbbbb = "Unknown Boss"
-IJ_DB_RAID_TH_BOSS_STORY_bbbbb = "Nothing is known about this entity..."
-IJ_DB_RAID_TH_BOSS_NAME_ccccc = "Unknown Boss"
-IJ_DB_RAID_TH_BOSS_STORY_ccccc = "Nothing is known about this entity..."
-IJ_DB_RAID_TH_BOSS_NAME_ddddd = "Unknown Boss"
-IJ_DB_RAID_TH_BOSS_STORY_ddddd = "Nothing is known about this entity..."
-IJ_DB_RAID_TH_BOSS_NAME_eeeee = "Unknown Boss"
-IJ_DB_RAID_TH_BOSS_STORY_eeeee = "Nothing is known about this entity..."
-IJ_DB_RAID_TH_BOSS_NAME_hhhhh = "Unknown Boss"
-IJ_DB_RAID_TH_BOSS_STORY_hhhhh = "Nothing is known about this entity..."
-IJ_DB_RAID_TH_BOSS_NAME_iiiii = "Unknown Boss"
-IJ_DB_RAID_TH_BOSS_STORY_iiiii = "Nothing is known about this entity..."
-IJ_DB_RAID_TH_BOSS_NAME_fffff = "Unknown Boss"
-IJ_DB_RAID_TH_BOSS_STORY_fffff = "Nothing is known about this entity..."
-IJ_DB_RAID_TH_BOSS_NAME_ggggg = "Unknown Boss"
-IJ_DB_RAID_TH_BOSS_STORY_ggggg = "Nothing is known about this entity..."
-IJ_DB_RAID_TH_BOSS_NAME_jjjjj = "Unknown Boss"
-IJ_DB_RAID_TH_BOSS_STORY_jjjjj = "Nothing is known about this entity..."
+IJ_DB_RAID_TH_BOSS_NAME_karrsh = "Karrsh the Sentinel"
+IJ_DB_RAID_TH_BOSS_STORY_karrsh =
+"A sentinel stands watch over something worth protecting. What Karrsh guards now in the dark of Timbermaw Hold, no one has returned to report."
+IJ_DB_RAID_TH_BOSS_NAME_rotgrowl = "Rotgrowl"
+IJ_DB_RAID_TH_BOSS_STORY_rotgrowl =
+"No title. No history. Only a name that the tunnels seem to have grown around, as if it were always there."
+IJ_DB_RAID_TH_BOSS_NAME_loktanag = "Loktanag the Vile"
+IJ_DB_RAID_TH_BOSS_STORY_loktanag =
+"The epithet was given by someone. Under what circumstances, and whether they lived to regret the proximity, is not recorded."
+IJ_DB_RAID_TH_BOSS_NAME_trioch = "Trioch the Devourer"
+IJ_DB_RAID_TH_BOSS_STORY_trioch =
+"What Trioch has consumed, and what remains of it, are questions Timbermaw Hold has swallowed along with everything else."
+IJ_DB_RAID_TH_BOSS_NAME_selenaxx = "Selenaxx Foulheart"
+IJ_DB_RAID_TH_BOSS_STORY_selenaxx =
+"Whether the heart was always foul, or became so within these walls, the caverns do not distinguish between the two."
+IJ_DB_RAID_TH_BOSS_NAME_ormanos = "Ormanos the Cracked"
+IJ_DB_RAID_TH_BOSS_STORY_ormanos =
+"Something broke. The hold remembers neither what it was, nor what broke it - only that Ormanos remained after."
+IJ_DB_RAID_TH_BOSS_NAME_partath = "Chieftain Partath"
+IJ_DB_RAID_TH_BOSS_STORY_partath =
+"He leads what the hold has become. Whether he led it there, or merely inherited the ruin, is a distinction the tunnels do not make."
+IJ_DB_RAID_TH_BOSS_NAME_kronn = "Archdruid Kronn"
+IJ_DB_RAID_TH_BOSS_STORY_kronn =
+"The title of Archdruid speaks to what Kronn once devoted himself to. The vapors drifting from Timbermaw Hold speak to what he devotes himself to now."
+IJ_DB_RAID_TH_BOSS_NAME_ursol = "Ursol"
+IJ_DB_RAID_TH_BOSS_STORY_ursol =
+"Ursol was a god of the wilds, twin to Ursoc, beloved among the furbolg since before the Sundering. He was many things. What he is now is something the old texts did not anticipate."
 
 -- TH Loot
 

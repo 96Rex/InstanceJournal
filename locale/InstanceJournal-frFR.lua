@@ -2250,26 +2250,6 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_ONY_BOSS_NAME_axelus = "Commandant des couvées Axelus"
     IJ_DB_RAID_ONY_BOSS_STORY_axelus =
     "La couvée ne parle pas de ses commandants aux étrangers – et encore moins au commandant de la couvée Axelus."
-    IJ_DB_RAID_TH_BOSS_NAME_aaaaa = "Patron inconnu"
-    IJ_DB_RAID_TH_BOSS_STORY_aaaaa = "On ne sait rien de cette entité..."
-    IJ_DB_RAID_TH_BOSS_NAME_bbbbb = "Patron inconnu"
-    IJ_DB_RAID_TH_BOSS_STORY_bbbbb = "On ne sait rien de cette entité..."
-    IJ_DB_RAID_TH_BOSS_NAME_ccccc = "Patron inconnu"
-    IJ_DB_RAID_TH_BOSS_STORY_ccccc = "On ne sait rien de cette entité..."
-    IJ_DB_RAID_TH_BOSS_NAME_ddddd = "Patron inconnu"
-    IJ_DB_RAID_TH_BOSS_STORY_ddddd = "On ne sait rien de cette entité..."
-    IJ_DB_RAID_TH_BOSS_NAME_eeeee = "Patron inconnu"
-    IJ_DB_RAID_TH_BOSS_STORY_eeeee = "On ne sait rien de cette entité..."
-    IJ_DB_RAID_TH_BOSS_NAME_hhhhh = "Patron inconnu"
-    IJ_DB_RAID_TH_BOSS_STORY_hhhhh = "On ne sait rien de cette entité..."
-    IJ_DB_RAID_TH_BOSS_NAME_iiiii = "Patron inconnu"
-    IJ_DB_RAID_TH_BOSS_STORY_iiiii = "On ne sait rien de cette entité..."
-    IJ_DB_RAID_TH_BOSS_NAME_fffff = "Patron inconnu"
-    IJ_DB_RAID_TH_BOSS_STORY_fffff = "On ne sait rien de cette entité..."
-    IJ_DB_RAID_TH_BOSS_NAME_ggggg = "Patron inconnu"
-    IJ_DB_RAID_TH_BOSS_STORY_ggggg = "On ne sait rien de cette entité..."
-    IJ_DB_RAID_TH_BOSS_NAME_jjjjj = "Patron inconnu"
-    IJ_DB_RAID_TH_BOSS_STORY_jjjjj = "On ne sait rien de cette entité..."
     IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha = "Tan'sha l'élégante"
     IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout = "Cri d'intimidation"
     IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout =
@@ -2357,4 +2337,31 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_rainoffire = "Pluie de feu"
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire =
     "Onyxian Hatcher projette des pluies de feu qui apparaissent autour de la pièce, infligeant de lourds dégâts de feu à tous les ennemis à l'intérieur."
+    IJ_DB_RAID_TH_BOSS_NAME_karrsh = "Karrsh la Sentinelle"
+    IJ_DB_RAID_TH_BOSS_STORY_karrsh =
+    "Une sentinelle veille sur quelque chose qui mérite d'être protégé. Ce que Karrsh garde actuellement dans l'obscurité de Timbermaw Hold, personne n'est revenu pour le signaler."
+    IJ_DB_RAID_TH_BOSS_NAME_rotgrowl = "Grognement pourri"
+    IJ_DB_RAID_TH_BOSS_STORY_rotgrowl =
+    "Pas de titre. Pas d'histoire. Seulement un nom autour duquel les tunnels semblent s'être développés, comme s'il avait toujours été là."
+    IJ_DB_RAID_TH_BOSS_NAME_loktanag = "Loktanag le Vile"
+    IJ_DB_RAID_TH_BOSS_STORY_loktanag =
+    "L'épithète a été donnée par quelqu'un. Dans quelles circonstances, et s'ils ont vécu pour regretter la proximité, cela n'est pas enregistré."
+    IJ_DB_RAID_TH_BOSS_NAME_trioch = "Trioch le Dévoreur"
+    IJ_DB_RAID_TH_BOSS_STORY_trioch =
+    "Ce que Trioch a consommé, et ce qu'il en reste, sont des questions que Timbermaw Hold a avalées avec tout le reste."
+    IJ_DB_RAID_TH_BOSS_NAME_selenaxx = "Selenaxx Foulheart"
+    IJ_DB_RAID_TH_BOSS_STORY_selenaxx =
+    "Que le cœur ait toujours été impur ou qu'il le soit devenu entre ces murs, les cavernes ne font pas de distinction entre les deux."
+    IJ_DB_RAID_TH_BOSS_NAME_ormanos = "Ormanos le Fêlé"
+    IJ_DB_RAID_TH_BOSS_STORY_ormanos =
+    "Quelque chose s'est cassé. La cale ne se souvient ni de ce que c'était, ni de ce qui l'a brisé - seulement qu'Ormanos est resté après."
+    IJ_DB_RAID_TH_BOSS_NAME_partath = "Chef Partath"
+    IJ_DB_RAID_TH_BOSS_STORY_partath =
+    "Il dirige ce que la cale est devenue. Qu'il l'ait conduit là-bas ou qu'il ait simplement hérité des ruines, c'est une distinction que les tunnels ne font pas."
+    IJ_DB_RAID_TH_BOSS_NAME_kronn = "Archidruide Kronn"
+    IJ_DB_RAID_TH_BOSS_STORY_kronn =
+    "Le titre d'Archidruide témoigne de ce à quoi Kronn se consacrait autrefois. Les vapeurs qui s'échappent de Timbermaw Hold témoignent de ce à quoi il se consacre désormais."
+    IJ_DB_RAID_TH_BOSS_NAME_ursol = "Ursol"
+    IJ_DB_RAID_TH_BOSS_STORY_ursol =
+    "Ursol était un dieu des terres sauvages, jumeau d'Ursoc, aimé des furbolgs avant la Fracture. Il était beaucoup de choses. Ce qu’il est aujourd’hui est quelque chose que les anciens textes n’avaient pas prévu."
 end

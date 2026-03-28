@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [1.1.5] - 2026-03-28
+
+### Added
+
+- Added Timbermaw Hold's bosses' medias
+
 ## [1.1.4] - 2026-03-25
 
 ### Fixed
