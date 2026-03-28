@@ -22,7 +22,7 @@ TH.Type = IJLib.InstanceType.Raid
 TH.Background = IMP .. IMPR .. instanceMediaAcronym .. "background"
 TH.GridBackground = IMP .. IMPR .. instanceMediaAcronym .. "grid-background"
 TH.MapId = IMI.TimbermawHold
-TH.IconScale = 0.7
+TH.IconScale = 0.8
 TH.MinLevel = 60
 TH.MaxLevel = 60
 TH.Entrances = {
@@ -35,11 +35,11 @@ TH.Entrances = {
 }
 TH.Bosses = {
     [1] = { -- NOTE: Missing abilities, Missing loot
-        Id = "aaaaa",
-        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "aaaaa" .. IMPP,
-        Frame = IMP .. IMPR .. instanceMediaAcronym .. "aaaaa" .. IMPF,
-        Name = IJ_DB_RAID_TH_BOSS_NAME_aaaaa,
-        Story = IJ_DB_RAID_TH_BOSS_STORY_aaaaa,
+        Id = "karrsh",
+        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "karrsh" .. IMPP,
+        Frame = IMP .. IMPR .. instanceMediaAcronym .. "karrsh" .. IMPF,
+        Name = IJ_DB_RAID_TH_BOSS_NAME_karrsh,
+        Story = IJ_DB_RAID_TH_BOSS_STORY_karrsh,
         MapCoordinateX = 31.0,
         MapCoordinateY = 73.5,
 		Loot = {
@@ -96,11 +96,11 @@ TH.Bosses = {
 		
     },
     [2] = { -- NOTE: Missing abilities, Missing loot
-        Id = "bbbbb",
-        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "bbbbb" .. IMPP,
-        Frame = IMP .. IMPR .. instanceMediaAcronym .. "bbbbb" .. IMPF,
-        Name = IJ_DB_RAID_TH_BOSS_NAME_bbbbb,
-        Story = IJ_DB_RAID_TH_BOSS_STORY_bbbbb,
+        Id = "rotgrowl",
+        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "rotgrowl" .. IMPP,
+        Frame = IMP .. IMPR .. instanceMediaAcronym .. "rotgrowl" .. IMPF,
+        Name = IJ_DB_RAID_TH_BOSS_NAME_rotgrowl,
+        Story = IJ_DB_RAID_TH_BOSS_STORY_rotgrowl,
         MapCoordinateX = 15.1,
         MapCoordinateY = 59.3,
 		Loot = {
@@ -155,11 +155,11 @@ TH.Bosses = {
 		},
     },
     [3] = { -- NOTE: Missing abilities, Missing loot
-        Id = "ccccc",
-        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "ccccc" .. IMPP,
-        Frame = IMP .. IMPR .. instanceMediaAcronym .. "ccccc" .. IMPF,
-        Name = IJ_DB_RAID_TH_BOSS_NAME_ccccc,
-        Story = IJ_DB_RAID_TH_BOSS_STORY_ccccc,
+        Id = "loktanag",
+        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "loktanag" .. IMPP,
+        Frame = IMP .. IMPR .. instanceMediaAcronym .. "loktanag" .. IMPF,
+        Name = IJ_DB_RAID_TH_BOSS_NAME_loktanag,
+        Story = IJ_DB_RAID_TH_BOSS_STORY_loktanag,
         MapCoordinateX = 14.7,
         MapCoordinateY = 50.0,
 		Loot = {
@@ -230,11 +230,11 @@ TH.Bosses = {
 		},
     },
     [4] = { -- NOTE: Missing abilities, Missing loot
-        Id = "ddddd",
-        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "ddddd" .. IMPP,
-        Frame = IMP .. IMPR .. instanceMediaAcronym .. "ddddd" .. IMPF,
-        Name = IJ_DB_RAID_TH_BOSS_NAME_ddddd,
-        Story = IJ_DB_RAID_TH_BOSS_STORY_ddddd,
+        Id = "trioch",
+        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "trioch" .. IMPP,
+        Frame = IMP .. IMPR .. instanceMediaAcronym .. "trioch" .. IMPF,
+        Name = IJ_DB_RAID_TH_BOSS_NAME_trioch,
+        Story = IJ_DB_RAID_TH_BOSS_STORY_trioch,
         MapCoordinateX = 32.4,
         MapCoordinateY = 36.3,
 		Loot = {
@@ -297,11 +297,11 @@ TH.Bosses = {
 		},
     },
     [5] = { -- NOTE: Missing abilities, Missing loot
-        Id = "eeeee",
-        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "eeeee" .. IMPP,
-        Frame = IMP .. IMPR .. instanceMediaAcronym .. "eeeee" .. IMPF,
-        Name = IJ_DB_RAID_TH_BOSS_NAME_eeeee,
-        Story = IJ_DB_RAID_TH_BOSS_STORY_eeeee,
+        Id = "selenaxx",
+        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "selenaxx" .. IMPP,
+        Frame = IMP .. IMPR .. instanceMediaAcronym .. "selenaxx" .. IMPF,
+        Name = IJ_DB_RAID_TH_BOSS_NAME_selenaxx,
+        Story = IJ_DB_RAID_TH_BOSS_STORY_selenaxx,
         MapCoordinateX = 54.7,
         MapCoordinateY = 64.7,
 		Loot = {
@@ -364,11 +364,11 @@ TH.Bosses = {
 		},
     },
     [6] = { -- NOTE: Missing abilities, Missing loot
-        Id = "hhhhh",
-        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "hhhhh" .. IMPP,
-        Frame = IMP .. IMPR .. instanceMediaAcronym .. "hhhhh" .. IMPF,
-        Name = IJ_DB_RAID_TH_BOSS_NAME_hhhhh,
-        Story = IJ_DB_RAID_TH_BOSS_STORY_hhhhh,
+        Id = "ormanos",
+        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "ormanos" .. IMPP,
+        Frame = IMP .. IMPR .. instanceMediaAcronym .. "ormanos" .. IMPF,
+        Name = IJ_DB_RAID_TH_BOSS_NAME_ormanos,
+        Story = IJ_DB_RAID_TH_BOSS_STORY_ormanos,
         MapCoordinateX = 42.4,
         MapCoordinateY = 30.7,
 		Loot = {
@@ -439,11 +439,11 @@ TH.Bosses = {
 		},
     },
     [7] = { -- NOTE: Missing abilities, Missing loot
-        Id = "iiiii",
-        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "iiiii" .. IMPP,
-        Frame = IMP .. IMPR .. instanceMediaAcronym .. "iiiii" .. IMPF,
-        Name = IJ_DB_RAID_TH_BOSS_NAME_iiiii,
-        Story = IJ_DB_RAID_TH_BOSS_STORY_iiiii,
+        Id = "partath",
+        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "partath" .. IMPP,
+        Frame = IMP .. IMPR .. instanceMediaAcronym .. "partath" .. IMPF,
+        Name = IJ_DB_RAID_TH_BOSS_NAME_partath,
+        Story = IJ_DB_RAID_TH_BOSS_STORY_partath,
         MapCoordinateX = 22.2,
         MapCoordinateY = 8.4,
 		Loot = {
@@ -506,11 +506,11 @@ TH.Bosses = {
 		},
     },
     [8] = { -- NOTE: Missing abilities, Missing loot
-        Id = "fffff",
-        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "fffff" .. IMPP,
-        Frame = IMP .. IMPR .. instanceMediaAcronym .. "fffff" .. IMPF,
-        Name = IJ_DB_RAID_TH_BOSS_NAME_fffff,
-        Story = IJ_DB_RAID_TH_BOSS_STORY_fffff,
+        Id = "kronn",
+        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "kronn" .. IMPP,
+        Frame = IMP .. IMPR .. instanceMediaAcronym .. "kronn" .. IMPF,
+        Name = IJ_DB_RAID_TH_BOSS_NAME_kronn,
+        Story = IJ_DB_RAID_TH_BOSS_STORY_kronn,
         MapCoordinateX = 45.7,
         MapCoordinateY = 58.4,
 		Loot = {
@@ -565,11 +565,11 @@ TH.Bosses = {
 		},
     },
     [9] = { -- NOTE: Missing abilities, Missing loot
-        Id = "ggggg",
-        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "ggggg" .. IMPP,
-        Frame = IMP .. IMPR .. instanceMediaAcronym .. "ggggg" .. IMPF,
-        Name = IJ_DB_RAID_TH_BOSS_NAME_ggggg,
-        Story = IJ_DB_RAID_TH_BOSS_STORY_ggggg,
+        Id = "ursol",
+        Portrait = IMP .. IMPR .. instanceMediaAcronym .. "ursol" .. IMPP,
+        Frame = IMP .. IMPR .. instanceMediaAcronym .. "ursol" .. IMPF,
+        Name = IJ_DB_RAID_TH_BOSS_NAME_ursol,
+        Story = IJ_DB_RAID_TH_BOSS_STORY_ursol,
         MapCoordinateX = 49.5,
         MapCoordinateY = 37.8,
 		Loot = {			

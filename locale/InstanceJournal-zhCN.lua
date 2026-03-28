@@ -4818,27 +4818,34 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_TH_STORY =
     "与卡利姆多本身一样古老，海加尔山下这个由隧道和洞穴组成的神秘迷宫网络早在大分裂之前就一直是熊怪的家园。它的大厅在部落中是神圣的，是崇拜他们的祖先乌索克和乌索尔双生神的地方。然而如今，只有腐烂的洞穴中散发出阵阵腐臭的蒸汽，而崇拜邪恶之神的低语声却在整个木喉要塞中回响……"
     -- TH Bosses
-    IJ_DB_RAID_TH_BOSS_NAME_aaaaa = "守门员"
-    IJ_DB_RAID_TH_BOSS_STORY_aaaaa = "关于这个实体一无所知……"
-    IJ_DB_RAID_TH_BOSS_NAME_bbbbb = "兽王"
-    IJ_DB_RAID_TH_BOSS_STORY_bbbbb = "关于这个实体一无所知……"
-    IJ_DB_RAID_TH_BOSS_NAME_ccccc = "孢子"
-    IJ_DB_RAID_TH_BOSS_STORY_ccccc = "关于这个实体一无所知……"
-    IJ_DB_RAID_TH_BOSS_NAME_ddddd = "石头人"
-    IJ_DB_RAID_TH_BOSS_STORY_ddddd = "关于这个实体一无所知……"
-    IJ_DB_RAID_TH_BOSS_NAME_eeeee = "大德鲁伊"
-    IJ_DB_RAID_TH_BOSS_STORY_eeeee = "关于这个实体一无所知……"
-    IJ_DB_RAID_TH_BOSS_NAME_hhhhh = "酋长"
-    IJ_DB_RAID_TH_BOSS_STORY_hhhhh = "关于这个实体一无所知……"
-    IJ_DB_RAID_TH_BOSS_NAME_iiiii = "萨特"
-    IJ_DB_RAID_TH_BOSS_STORY_iiiii = "关于这个实体一无所知……"
-    IJ_DB_RAID_TH_BOSS_NAME_fffff = "九头虫"
-    IJ_DB_RAID_TH_BOSS_STORY_fffff = "关于这个实体一无所知……"
-    IJ_DB_RAID_TH_BOSS_NAME_ggggg = "尾王"
-    IJ_DB_RAID_TH_BOSS_STORY_ggggg = "关于这个实体一无所知……"
-    IJ_DB_RAID_TH_BOSS_NAME_jjjjj = "小怪/公共掉落"
-    IJ_DB_RAID_TH_BOSS_STORY_jjjjj = "关于这个实体一无所知……"
-
+    IJ_DB_RAID_TH_BOSS_NAME_karrsh = "哨兵卡尔什"
+    IJ_DB_RAID_TH_BOSS_STORY_karrsh =
+    "哨兵守护着值得保护的事物。卡尔什现在在木喉要塞的黑暗中守护着什么，没有人回来报告。"
+    IJ_DB_RAID_TH_BOSS_NAME_rotgrowl = "腐烂者"
+    IJ_DB_RAID_TH_BOSS_STORY_rotgrowl =
+    "没有标题。没有历史。只有一个名字，隧道似乎是围绕着它生长的，就好像它一直在那里一样。"
+    IJ_DB_RAID_TH_BOSS_NAME_loktanag = "邪恶的洛克塔纳格"
+    IJ_DB_RAID_TH_BOSS_STORY_loktanag =
+    "这个绰号是某人起的。在什么情况下，以及他们是否为接近而感到遗憾，都没有记录。"
+    IJ_DB_RAID_TH_BOSS_NAME_trioch = "吞噬者特里奥奇"
+    IJ_DB_RAID_TH_BOSS_STORY_trioch =
+    "Trioch 所消耗的以及剩下的，都是木喉要塞连同其他一切一起吞没的问题。"
+    IJ_DB_RAID_TH_BOSS_NAME_selenaxx = "塞莱娜克斯·污心"
+    IJ_DB_RAID_TH_BOSS_STORY_selenaxx =
+    "无论心脏始终是肮脏的，还是在这些墙壁内变得如此，洞穴并不区分两者。"
+    IJ_DB_RAID_TH_BOSS_NAME_ormanos = "破碎的奥玛诺斯"
+    IJ_DB_RAID_TH_BOSS_STORY_ormanos =
+    "有东西坏了。这个要塞既不记得它是什么，也不记得是什么打破了它——只记得奥马诺斯留下来。"
+    IJ_DB_RAID_TH_BOSS_NAME_partath = "帕塔斯酋长"
+    IJ_DB_RAID_TH_BOSS_STORY_partath =
+    "他领导着现在的局面。无论是他带领它到达那里，还是仅仅继承了废墟，隧道都没有区别。"
+    IJ_DB_RAID_TH_BOSS_NAME_kronn = "大德鲁伊科隆"
+    IJ_DB_RAID_TH_BOSS_STORY_kronn =
+    "大德鲁伊的称号说明了科隆曾经致力于的事业。从木喉要塞飘出的蒸气说明了他现在所致力于的事情。"
+    IJ_DB_RAID_TH_BOSS_NAME_ursol = "乌索尔"
+    IJ_DB_RAID_TH_BOSS_STORY_ursol =
+    "乌索尔是荒野之神，是乌索克的双胞胎，自大分裂之前就深受熊怪的喜爱。他有很多东西。他现在的样子，是旧书所没有预料到的。"
+	IJ_DB_RAID_TH_BOSS_NAME_jjjjj = "小怪/通用掉落"
 
 
 
