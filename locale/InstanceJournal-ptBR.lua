@@ -442,8 +442,7 @@ if GetLocale() == "ptBR" then
     "Jared Voss é filho de William Voss, um renomado alquimista cuja loja e casa foram incendiadas em Ventobravo e nunca reconstruídas, deixando sua família desabrigada e ressentida com a nobreza responsável. Jared, aprendiz dos pedreiros antes da morte de seu pai, herdou tanto seus talentos alquímicos quanto seu ressentimento ardente."
     IJ_DB_DUNGEON_DEADMINES_BOSS_NAME_644 = "Rhahk'Zor"
     IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_644 =
-    "Como chefe das minas mortas da Irmandade Défias, Rhahk'Zor supervisiona e "
-    motiva " os trabalhadores. Seus métodos, embora não convencionais, são bastante eficazes."
+    "Como chefe das minas mortas da Irmandade Défias, Rhahk'Zor supervisiona e \"motiva\" os trabalhadores. Seus métodos, embora não convencionais, são bastante eficazes."
     IJ_DB_DUNGEON_DEADMINES_BOSS_644_ABILITY_NAME_6304 = "Rhahk’Zor Slam"
     IJ_DB_DUNGEON_DEADMINES_BOSS_644_ABILITY_EFFECT_6304 =
     "Rhahk'Zor atinge um inimigo, causando 64 a 86 de dano físico e atordoando-o por 3 segundos."
@@ -735,8 +734,7 @@ if GetLocale() == "ptBR" then
     "Os antigos canais robustos e elegantemente complexos de Gnomeregan são agora uma bagunça irradiada cheia de limo tóxico. Um solitário elemental da água que vivia no aquífero dos gnomos ficou preso na contaminação, e a poluição corrompeu sua forma pura. Atualmente ele vagueia pelos corredores de Gnomeregan em raiva e agonia, uma personificação líquida do vil veneno da traição de Thermaplugg."
     IJ_DB_DUNGEON_GNOMEREGAN_BOSS_NAME_6235 = "Eletrocucionador 6000"
     IJ_DB_DUNGEON_GNOMEREGAN_BOSS_STORY_6235 =
-    "Mekgineer Thermaplugg não é um gnomo paciente. Em vez de submeter suas invenções a uma bateria de testes para determinar sua segurança e eficácia, ele as leva para o campo e passa para o próximo projeto. O Electrocutioner 6000 foi sua primeira tentativa de aproveitar a eletricidade como arma por meio de um tanque mecânico supercarregado. O Tenente Tom "
-    Sizzlepants " Crankle, o único soldado que sobreviveu pilotando o Electrocutioner, é agora uma espécie de herói entre os gnomos leprosos."
+    "Mekgineer Thermaplugg não é um gnomo paciente. Em vez de submeter suas invenções a uma bateria de testes para determinar sua segurança e eficácia, ele as leva para o campo e passa para o próximo projeto. O Electrocutioner 6000 foi sua primeira tentativa de aproveitar a eletricidade como arma por meio de um tanque mecânico supercarregado. O Tenente Tom \"Sizzlepants\" Crankle, o único soldado que sobreviveu pilotando o Electrocutioner, é agora uma espécie de herói entre os gnomos leprosos."
     IJ_DB_DUNGEON_GNOMEREGAN_BOSS_NAME_6229 = "Esmagador de Multidão 9-60"
     IJ_DB_DUNGEON_GNOMEREGAN_BOSS_STORY_6229 =
     "No apogeu de Gnomeregan, os inventores competiam por status, colocando suas criações umas contra as outras. O mekgineer Oglethorpe Obnoticus construiu um robô imbatível, e isso conquistou seu respeito na corte dos grandes funileiros. Sicco Thermaplugg roubou as plantas de Obnoticus e depois fez uma versão gigante da máquina. Ele soltou sua falsificação, e os resultados horríveis levaram o conselho governante a banir o inocente Obnoticus. O Crowd Pummeler 9-60 ainda é uma das invenções favoritas (roubadas) do Thermaplugg."

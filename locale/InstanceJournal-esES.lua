@@ -444,8 +444,7 @@ if GetLocale() == "esES" then
     "Jared Voss es hijo de William Voss, un renombrado alquimista cuya tienda y casa fueron incendiadas por Ventormenta y nunca reconstruidas, dejando a su familia sin hogar y amargada hacia la nobleza responsable. Jared, aprendiz de canteros antes de la muerte de su padre, heredó tanto sus talentos alquímicos como su ardiente resentimiento."
     IJ_DB_DUNGEON_DEADMINES_BOSS_NAME_644 = "Rhahk'Zor"
     IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_644 =
-    "Como capataz principal de las Minas de la Muerte de la Hermandad Defias, Rhahk'Zor supervisa y "
-    motiva " a los trabajadores. Sus métodos, aunque poco convencionales, son bastante eficaces."
+    "Como capataz principal de las Minas de la Muerte de la Hermandad Defias, Rhahk'Zor supervisa y \"motiva\" a los trabajadores. Sus métodos, aunque poco convencionales, son bastante eficaces."
     IJ_DB_DUNGEON_DEADMINES_BOSS_644_ABILITY_NAME_6304 = "Golpe de Rhahk'Zor"
     IJ_DB_DUNGEON_DEADMINES_BOSS_644_ABILITY_EFFECT_6304 =
     "Rhahk'Zor golpea a un enemigo, le inflige de 64 a 86 de daño físico y lo aturde durante 3 segundos."
@@ -538,8 +537,7 @@ if GetLocale() == "esES" then
     "Las antiguas bestias de los pantanos de Black Morass han sido durante mucho tiempo sensibles a las energías de la tierra. Mossheart, que alguna vez fue un pacífico protector del fango, ha sido llevado a un estado de furia primordial por la radiación temporal que se escapa del Portal Oscuro. Ahora arremete contra cualquier cosa, bronce o infinita, que perturbe las turbias profundidades de su hogar."
     IJ_DB_DUNGEON_BM_BOSS_NAME_65125 = "Antnormi"
     IJ_DB_DUNGEON_BM_BOSS_STORY_65125 =
-    "Antigua hermana de armas del dragón de bronce Keridormi, la traición de Antnormi es quizás la más personal de todas. Convencida de que la llegada de los orcos es una tragedia que debe ser borrada, ha abrazado el camino del Infinito. Ella se erige como el último obstáculo en la vía del tiempo del sur, dispuesta a matar a sus antiguos parientes para ver realizada su visión de una historia "
-    pura "."
+    "Antigua hermana de armas del dragón de bronce Keridormi, la traición de Antnormi es quizás la más personal de todas. Convencida de que la llegada de los orcos es una tragedia que debe ser borrada, ha abrazado el camino del Infinito. Ella se erige como el último obstáculo en la vía del tiempo del sur, dispuesta a matar a sus antiguos parientes para ver realizada su visión de una historia \"pura\"."
     IJ_DB_DUNGEON_BM_BOSS_NAME_65122 = "Rotmaw"
     IJ_DB_DUNGEON_BM_BOSS_STORY_65122 =
     "Rotmaw, un enorme crocolisco de apetito legendario, se ha deleitado con las energías crónicas desplazadas del pantano durante años. La bestia se ha vuelto anormalmente grande y agresiva, y sus fauces están goteando podredumbre entrópica. Le importa poco la preservación del tiempo y ve a los invasores de Black Morass sólo como un festín muy necesario."
@@ -580,8 +578,7 @@ if GetLocale() == "esES" then
     "El maestro de perros Loksey es uno de los cuatro líderes del Monasterio Escarlata y el capitán encargado de entrenar a los perros que la Cruzada Escarlata utiliza para localizar a sus enemigos. Loksey cuenta con la lealtad de perros temibles que pueden destrozar a sus víctimas miembro por miembro en cuestión de minutos."
     IJ_DB_DUNGEON_SMLIB_BOSS_NAME_61983 = "Hermano Wystan"
     IJ_DB_DUNGEON_SMLIB_BOSS_STORY_61983 =
-    "El hermano Wystan actúa como guardián de los archivos del Monasterio, protegiendo fanáticamente los objetos \"heréticos\" que la Cruzada ha confiscado del mundo exterior. Entre su colección se encuentra un servo sintonizado con torio, una compleja pieza de ingeniería que considera una afrenta a la Luz. Si bien muchos magos como Elias han huido de la orden después de presenciar el descenso de la élite a la locura y la nigromancia, Wystan sigue siendo un escudo incondicional, asegurando que ninguna influencia "
-    antinatural " salga de las paredes de la Biblioteca."
+    "El hermano Wystan actúa como guardián de los archivos del Monasterio, protegiendo fanáticamente los objetos \"heréticos\" que la Cruzada ha confiscado del mundo exterior. Entre su colección se encuentra un servo sintonizado con torio, una compleja pieza de ingeniería que considera una afrenta a la Luz. Si bien muchos magos como Elias han huido de la orden después de presenciar el descenso de la élite a la locura y la nigromancia, Wystan sigue siendo un escudo incondicional, asegurando que ninguna influencia \"antinatural\" salga de las paredes de la Biblioteca."
     IJ_DB_DUNGEON_SMLIB_BOSS_NAME_6487 = "Arcanista Doan"
     IJ_DB_DUNGEON_SMLIB_BOSS_STORY_6487 =
     "Doan actúa como guardián de la biblioteca del Monasterio Escarlata; un guardián de lo arcano del que se rumorea que la Cruzada Escarlata desconfía. Sin embargo, es un funcionario de confianza de la Cruzada y conserva una llave vital que otorga acceso a las operaciones Escarlata en las Tierras de la Peste. El arcanista Doan cree que la magia arcana es la única forma de librar a Lordaeron de la Plaga."
@@ -594,8 +591,7 @@ if GetLocale() == "esES" then
     -- SMARM Bosses
     IJ_DB_DUNGEON_SMARM_BOSS_NAME_61982 = "Intendente de Armería Daghelm"
     IJ_DB_DUNGEON_SMARM_BOSS_STORY_61982 =
-    "Daghelm, que alguna vez fue un prometedor aprendiz del maestro herrero Basil Frye, decidió quedarse en el Monasterio cuando llegó la Plaga, mientras su mentor huía al lodo de Entrañas. Los años de aislamiento y fanatismo lo han convertido en un fanático psicótico, obsesionado con forjar una armadura dentro de las "
-    bendiciones " de la Luz. Todavía lleva el diario de su mentor en lingotes de Lightforge, negándose a entregar las preciosas notas incluso cuando la Cruzada a la que sirve se desmorona en la corrupción a su alrededor."
+    "Daghelm, que alguna vez fue un prometedor aprendiz del maestro herrero Basil Frye, decidió quedarse en el Monasterio cuando llegó la Plaga, mientras su mentor huía al lodo de Entrañas. Los años de aislamiento y fanatismo lo han convertido en un fanático psicótico, obsesionado con forjar una armadura dentro de las \"bendiciones\" de la Luz. Todavía lleva el diario de su mentor en lingotes de Lightforge, negándose a entregar las preciosas notas incluso cuando la Cruzada a la que sirve se desmorona en la corrupción a su alrededor."
     IJ_DB_DUNGEON_SMARM_BOSS_NAME_3975 = "Herodes"
     IJ_DB_DUNGEON_SMARM_BOSS_STORY_3975 =
     "Herodes es uno de los cuatro líderes de la Cruzada Escarlata en el Monasterio Escarlata. Campeón de la Cruzada Escarlata, es conocido por su reputación brutal."
@@ -1181,8 +1177,7 @@ if GetLocale() == "esES" then
     "El Lorekeeper Polkelt fue una vez el guardián del conocimiento, conocimiento que lamentablemente se ha perdido, sin embargo, ya que ahora es un monstruo poco inteligente y tambaleante."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10507 = "El raveniano"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10507 =
-    "El Raveniano es una monstruosa abominación de hambre incomparable, que sirve como medida "
-    disciplinaria " definitiva de la escuela. Cosido a partir de los restos más fuertes disponibles para el culto, reside en los pozos inferiores de la academia donde se alimenta de los fracasados ​​y los débiles. A diferencia de la facultad más inteligente, el Raveniano es una criatura de instinto puro y glotón, que actúa como un enorme muro de carne podrida entre los intrusos y los secretos mejor guardados de la escuela."
+    "El Raveniano es una monstruosa abominación de hambre incomparable, que sirve como medida \"disciplinaria\" definitiva de la escuela. Cosido a partir de los restos más fuertes disponibles para el culto, reside en los pozos inferiores de la academia donde se alimenta de los fracasados ​​y los débiles. A diferencia de la facultad más inteligente, el Raveniano es una criatura de instinto puro y glotón, que actúa como un enorme muro de carne podrida entre los intrusos y los secretos mejor guardados de la escuela."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10504 = "Señor Alexei Barov"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10504 =
     "Lord Alexei Barov era el señor de Caer Darrow, Brill, Tarren Mill y Southshore. Era el padre de Alexi, Weldon y Jandice Barov y esposo de Lady Illucia Barov. Al igual que Jandice e Illucia, ahora es un agente de la Plaga que se encuentra en Scholomance."
@@ -1850,8 +1845,7 @@ if GetLocale() == "esES" then
     -- ES
     IJ_DB_RAID_ES_NAME = "Santuario Esmeralda"
     IJ_DB_RAID_ES_STORY =
-    "El Santuario Esmeralda, un refugio sagrado dentro del Camino del Sueño, ha caído bajo la sombra de una oscuridad insidiosa. Lo que alguna vez fue un bastión de tranquilidad donde el Vuelo Verde realizaba sus rituales más sagrados, se ha convertido en un escenario para la corrupción de Nightmare. Ahora, los mismos defensores del Sueño han sucumbido a susurros malévolos, amenazando con dirigir el poder del "
-    Despertar " contra el propio Azeroth."
+    "El Santuario Esmeralda, un refugio sagrado dentro del Camino del Sueño, ha caído bajo la sombra de una oscuridad insidiosa. Lo que alguna vez fue un bastión de tranquilidad donde el Vuelo Verde realizaba sus rituales más sagrados, se ha convertido en un escenario para la corrupción de Nightmare. Ahora, los mismos defensores del Sueño han sucumbido a susurros malévolos, amenazando con dirigir el poder del \"Despertar\" contra el propio Azeroth."
 
     -- ES Bosses
     IJ_DB_RAID_ES_BOSS_NAME_60747 = "Erennio"
@@ -1892,8 +1886,7 @@ if GetLocale() == "esES" then
     "Un Draenei Roto cuyo espíritu fue fracturado aún más por las anomalías espaciales dentro de esta ala de la torre. Atrapado dentro de la Roca de la Desolación, Sanv Tas'dal se ha visto llevado a una desesperación salvaje, empuñando los restos de su herencia chamánica y su oscuro vudú para defender su exiguo territorio de cualquier intruso."
     IJ_DB_RAID_KARA40_BOSS_NAME_59961 = "Rupturan el Roto"
     IJ_DB_RAID_KARA40_BOSS_STORY_59961 =
-    "Una enorme y sensible formación de piedra y tierra que se hizo añicos durante la destrucción de Draenor. Reconstituido por las energías caóticas de la grieta de la torre, este monolito literalmente "
-    roto " ahora se erige como una fuerza aplastante y sin sentido de la naturaleza, que encarna físicamente el paisaje destrozado de la Roca de la Desolación."
+    "Una enorme y sensible formación de piedra y tierra que se hizo añicos durante la destrucción de Draenor. Reconstituido por las energías caóticas de la grieta de la torre, este monolito literalmente \"roto\" ahora se erige como una fuerza aplastante y sin sentido de la naturaleza, que encarna físicamente el paisaje destrozado de la Roca de la Desolación."
     IJ_DB_RAID_KARA40_BOSS_NAME_59991 = "krüul"
     IJ_DB_RAID_KARA40_BOSS_STORY_59991 =
     "El Gran Señor Kruul, la 'Sombra Ardiente', ha utilizado la grieta dentro de Karazhan para liderar una vanguardia demoníaca. Un Doomlord de inmensa malicia, busca reclamar el poder del Guardián para impulsar la conquista de la Legión a través del Vacío Abisal."

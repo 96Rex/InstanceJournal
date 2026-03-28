@@ -735,8 +735,7 @@ if GetLocale() == "frFR" then
     "Les voies navigables autrefois robustes et élégamment complexes de Gnomeregan sont désormais un gâchis irradié rempli de bave toxique. Un élémentaire d'eau solitaire qui vivait dans l'aquifère des gnomes s'est retrouvé piégé dans la contamination, et la pollution a corrompu sa forme pure. Il erre actuellement dans les couloirs de Gnomeregan dans la colère et l'agonie, une incarnation liquide du vil poison de la trahison de Thermaplugg."
     IJ_DB_DUNGEON_GNOMEREGAN_BOSS_NAME_6235 = "Électrocuteur 6000"
     IJ_DB_DUNGEON_GNOMEREGAN_BOSS_STORY_6235 =
-    "Mekgineer Thermaplugg n'est pas un gnome patient. Plutôt que de soumettre ses inventions à une batterie de tests pour déterminer leur sécurité et leur efficacité, il les précipite sur le terrain et passe au projet suivant. L'Electrocutioner 6000 était sa première tentative d'exploiter l'électricité comme arme via un mécano-char surchargé. Le lieutenant Tom "
-    Sizzlepants " Crankle, le seul soldat à avoir survécu aux commandes de l'Electrocutioner, est désormais une sorte de héros parmi les gnomes lépreux."
+    "Mekgineer Thermaplugg n'est pas un gnome patient. Plutôt que de soumettre ses inventions à une batterie de tests pour déterminer leur sécurité et leur efficacité, il les précipite sur le terrain et passe au projet suivant. L'Electrocutioner 6000 était sa première tentative d'exploiter l'électricité comme arme via un mécano-char surchargé. Le lieutenant Tom \"Sizzlepants\" Crankle, le seul soldat à avoir survécu aux commandes de l'Electrocutioner, est désormais une sorte de héros parmi les gnomes lépreux."
     IJ_DB_DUNGEON_GNOMEREGAN_BOSS_NAME_6229 = "Batteur de foule 9-60"
     IJ_DB_DUNGEON_GNOMEREGAN_BOSS_STORY_6229 =
     "À l'époque de Gnomeregan, les inventeurs se disputaient le statut en opposant leurs créations les unes aux autres. Le mékgénieur Oglethorpe Obnoticus a construit un robot imbattable, ce qui lui a valu le respect de la haute cour des bricoleurs. Sicco Thermaplugg a volé les plans d'Obnoticus puis a réalisé une version géante de la machine. Il a libéré sa contrefaçon et les horribles résultats ont poussé le conseil au pouvoir à bannir l'innocent Obnoticus. Le Crowd Pummeler 9-60 est toujours l'une des inventions préférées (volées) de Thermaplugg."
@@ -1134,8 +1133,7 @@ if GetLocale() == "frFR" then
     "Une chauve-souris insaisissable, rarement vue parmi les habitants de Razorfen Kraul. On dit qu'il possède de nombreux objets convoités sur lesquels beaucoup souhaiteraient pouvoir mettre la main, si seulement ils pouvaient les trouver en premier lieu..."
     IJ_DB_DUNGEON_RFK_BOSS_NAME_4421 = "Charlga Razorflanc"
     IJ_DB_DUNGEON_RFK_BOSS_STORY_4421 =
-    "Le chef (ou "
-    crone ") des tribus Razorfen est Charlga Razorflank, un quilboar dont les pratiques expérimentales et puissantes de géomancie sont sans égal. Son ascension fulgurante au pouvoir et la violence croissante entre les membres des tribus quilboars ne peuvent conduire qu'à une seule chose : la guerre."
+    "Le chef (ou \"crone\") des tribus Razorfen est Charlga Razorflank, un quilboar dont les pratiques expérimentales et puissantes de géomancie sont sans égal. Son ascension fulgurante au pouvoir et la violence croissante entre les membres des tribus quilboars ne peuvent conduire qu'à une seule chose : la guerre."
 
     -- SCHOLO
     IJ_DB_DUNGEON_SCHOLO_NAME = "Scholomance"
