@@ -4818,13 +4818,13 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_TH_STORY =
     "与卡利姆多本身一样古老，海加尔山下这个由隧道和洞穴组成的神秘迷宫网络早在大分裂之前就一直是熊怪的家园。它的大厅在部落中是神圣的，是崇拜他们的祖先乌索克和乌索尔双生神的地方。然而如今，只有腐烂的洞穴中散发出阵阵腐臭的蒸汽，而崇拜邪恶之神的低语声却在整个木喉要塞中回响……"
     -- TH Bosses
-    IJ_DB_RAID_TH_BOSS_NAME_karrsh = "哨兵卡尔什"
+    IJ_DB_RAID_TH_BOSS_NAME_karrsh = "哨兵卡尔"
     IJ_DB_RAID_TH_BOSS_STORY_karrsh =
     "哨兵守护着值得保护的事物。卡尔什现在在木喉要塞的黑暗中守护着什么，没有人回来报告。"
     IJ_DB_RAID_TH_BOSS_NAME_rotgrowl = "腐烂者"
     IJ_DB_RAID_TH_BOSS_STORY_rotgrowl =
     "没有标题。没有历史。只有一个名字，隧道似乎是围绕着它生长的，就好像它一直在那里一样。"
-    IJ_DB_RAID_TH_BOSS_NAME_loktanag = "邪恶的洛克塔纳格"
+    IJ_DB_RAID_TH_BOSS_NAME_loktanag = "落潭"
     IJ_DB_RAID_TH_BOSS_STORY_loktanag =
     "这个绰号是某人起的。在什么情况下，以及他们是否为接近而感到遗憾，都没有记录。"
     IJ_DB_RAID_TH_BOSS_NAME_trioch = "吞噬者特里奥奇"

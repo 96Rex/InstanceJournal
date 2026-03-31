@@ -1,10 +1,10 @@
 ## Interface: 11200
 ## Title: Instance Journal (|cffabd473TurtleWoW|r)
 ## Title-zhCN: 副本日志 (|cffabd473TurtleWoW|r)
-## Version: 1.1.5
+## Version: 1.1.6
 ## Author: Walter Bennet
 ## Notes: A reimagining of World of Warcraft's original Encounter Journal, built for |cffabd473TurtleWoW|r!
-## Notes-zhCN: 对《魔兽世界》原版副本日志的复刻版，专为 |cffabd473TurtleWoW|r 打造！
+## Notes-zhCN: 对《魔兽世界》原版副本日志的复刻版，专为 |cffabd473TurtleWoW|r 打造！按Shift+J打开副本日志.
 ## SavedVariables: IJ_FirstTimeBindingDone
 ## X-URL: https://github.com/96Rex/InstanceJournal
 
