@@ -65,7 +65,7 @@ If you encounter any incompatibilites that are not listed here, please report th
 - Some instance maps do not display the full zone area (LBRS/UBRS, Scholomance, ...). Unfortunately, this is a current engine limitation
 - Some lore descriptions may be inaccurate or incomplete
 - Most encounter abilities are incomplete, and some may have incorrect details
-- Turtle WoW added quests does not have their rewards listed. They will be added in the near future
+- Turtle WoW added quests do not have their rewards listed. They will be added in the near future
 
 Please report any issues you encounter through the `Issues` tab on this repository.
 
