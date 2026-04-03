@@ -13,6 +13,7 @@ I[42178] = {
     Icon = "INV_Misc_StoneTablet_04",
     Name = IJ_LOOT_NAME_42178,
     Quality = IQ.Epic,
+    ItemSlot = IS.Quest,
     Tag = 1
 }
 
