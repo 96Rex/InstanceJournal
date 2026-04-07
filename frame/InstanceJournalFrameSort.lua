@@ -1,84 +1,54 @@
-IJ_SortingMode = IJ_SortingMode or "NAME"
+-- 自定义排序顺序表（副本）
+IJ_CustomDungeonOrder = {
+    ["怒焰裂谷"] = 1,
+    ["霜鬃峡谷"] = 2,
+    ["哀嚎洞穴"] = 3,
+    ["死亡矿井"] = 4,
+    ["影牙城堡"] = 5,
+    ["黑暗深渊"] = 6,
+    ["监狱"] = 7,
+    ["风角峡谷"] = 8,
+    ["龙喉居所"] = 9,
+    ["诺莫瑞根"] = 10,
+    ["剃刀沼泽"] = 11,
+    ["剃刀高地"] = 12,
+    ["血色修道院（墓地）"] = 13,
+    ["血色修道院（图书馆）"] = 14,
+    ["血色修道院（军械库）"] = 15,
+    ["血色修道院（大教堂）"] = 16,
+    ["新月林地"] = 17,
+    ["风暴废墟"] = 18,
+    ["奥达曼"] = 19,
+    ["祖尔法拉克"] = 20,
+    ["吉尔尼斯城"] = 21,
+    ["玛拉顿"] = 22,
+    ["沉没的神庙"] = 23,
+    ["仇恨熔炉"] = 24,
+    ["黑石深渊"] = 25,
+    ["厄运之槌（东）"] = 26,
+    ["厄运之槌（西）"] = 27,
+    ["厄运之槌（北）"] = 28,
+    ["黑石塔下层"] = 29,
+    ["黑石塔上层"] = 30,
+    ["通灵学院"] = 31,
+    ["斯坦索姆"] = 32,
+    ["卡拉赞墓穴"] = 33,
+    ["暴风城地牢"] = 34,
+    ["黑色沼泽"] = 35,
+}
 
-local SortInitFrame = CreateFrame("Frame")
-SortInitFrame:RegisterEvent("VARIABLES_LOADED")
-
-SortInitFrame:SetScript("OnEvent", function()
-    local sortDD = CreateFrame("Frame", "IJ_SortDropDown", IJ_InstanceSelectPanel, "UIDropDownMenuTemplate")
-    sortDD:SetPoint("RIGHT", IJ_ContinentFilterDropDown, "LEFT", 25, 0)
-
-    local ddText = getglobal("IJ_SortDropDownText")
-    ddText:SetText(IJ_SORTBYNAME)
-    local widthName = ddText:GetStringWidth()
-
-    ddText:SetText(IJ_SORTBYLEVEL)
-    local widthLevel = ddText:GetStringWidth()
-
-    local ddWidth = math.max(widthName, widthLevel) + 50
-
-    UIDropDownMenu_SetWidth(ddWidth, sortDD)
-    UIDropDownMenu_Initialize(sortDD, IJ_SortDropDown_Initialize)
-    UIDropDownMenu_SetSelectedValue(sortDD, IJ_SortingMode)
-
-    local text = (IJ_SortingMode == "LEVEL") and IJ_SORTBYLEVEL or IJ_SORTBYNAME
-    UIDropDownMenu_SetText(text, sortDD)
-
-    local orig_PopulateInstanceGrid = IJ_PopulateInstanceGrid
-    IJ_PopulateInstanceGrid = function()
-        local orig_sort = table.sort
-
-        table.sort = function(t, _)
-            orig_sort(t, function(a, b)
-                if IJ_SortingMode == "LEVEL" then
-                    local minA = a.MinLevel or 0
-                    local minB = b.MinLevel or 0
-
-                    if minA == minB then
-                        local maxA = a.MaxLevel or 0
-                        local maxB = b.MaxLevel or 0
-
-                        if maxA == maxB then
-                            return (a.Name or "") < (b.Name or "")
-                        end
-
-                        return maxA < maxB
-                    end
-
-                    return minA < minB
-                else
-                    return (a.Name or "") < (b.Name or "")
-                end
-            end)
-        end
-
-        orig_PopulateInstanceGrid()
-        table.sort = orig_sort
-    end
-end)
-
-function IJ_SortDropDown_Initialize()
-    local info = {}
-
-    info.text = IJ_SORTBYNAME
-    info.value = "NAME"
-    info.func = IJ_SortDropDown_OnClick
-    info.checked = (IJ_SortingMode == "NAME")
-    UIDropDownMenu_AddButton(info)
-
-    info = {}
-    info.text = IJ_SORTBYLEVEL
-    info.value = "LEVEL"
-    info.func = IJ_SortDropDown_OnClick
-    info.checked = (IJ_SortingMode == "LEVEL")
-    UIDropDownMenu_AddButton(info)
-end
-
-function IJ_SortDropDown_OnClick()
-    IJ_SortingMode = this.value
-    UIDropDownMenu_SetSelectedValue(IJ_SortDropDown, this.value)
-
-    local text = (this.value == "LEVEL") and IJ_SORTBYLEVEL or IJ_SORTBYNAME
-    UIDropDownMenu_SetText(text, IJ_SortDropDown)
-
-    IJ_PopulateInstanceGrid()
-end
+-- 自定义排序顺序表（团队副本）
+IJ_CustomRaidOrder = {
+    ["卡拉赞大厅"] = 1,
+    ["安其拉废墟"] = 2,
+    ["祖尔格拉布"] = 3,
+    ["奥妮克希亚的巢穴"] = 4,
+    ["熔火之心"] = 5,
+    ["黑翼之巢"] = 6,
+    ["纳克萨玛斯"] = 7,
+    ["翡翠圣殿"] = 8,
+    ["木喉要塞"] = 9,
+    ["安其拉神殿"] = 10,
+    ["卡拉赞之塔"] = 11,
+    ["世界BOSS"] = 12,
+}

@@ -23,48 +23,21 @@ function IJ_PopulateInstanceGrid()
         sourceList = IJDB.DG
     end
 
-    local currentFilter = IJ_ShowRaids and IJ_FilterContinent_Raid or IJ_FilterContinent_Dungeon
-
     for _, entry in pairs(sourceList) do
-        local shouldAdd = false
-
-        if currentFilter == "ALL" then
-            shouldAdd = true
-        else
-            local hasEntrance = false
-
-            if entry.Entrances then
-                for _, ent in pairs(entry.Entrances) do
-                    hasEntrance = true
-
-                    local mapContinentName = nil
-
-                    local continentIdStr = tostring(ent.MapContinentId)
-                    if continentIdStr == "1" then
-                        mapContinentName = "Kalimdor"
-                    elseif continentIdStr == "2" then
-                        mapContinentName = "EasternKingdoms"
-                    end
-
-                    if mapContinentName == currentFilter then
-                        shouldAdd = true
-                    end
-
-                    break
-                end
-            end
-
-            if not hasEntrance then
-                shouldAdd = true
-            end
-        end
-
-        if shouldAdd then
-            table.insert(list, entry)
-        end
+        table.insert(list, entry)
     end
 
+    -- 使用自定义排序（引用 Sort 文件中定义的表）
+    local orderTable = IJ_ShowRaids and IJ_CustomRaidOrder or IJ_CustomDungeonOrder
+    
     table.sort(list, function(a, b)
+        local orderA = orderTable[a.Name] or 999
+        local orderB = orderTable[b.Name] or 999
+        
+        if orderA ~= orderB then
+            return orderA < orderB
+        end
+        
         return (a.Name or "") < (b.Name or "")
     end)
 

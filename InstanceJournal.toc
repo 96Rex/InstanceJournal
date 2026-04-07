@@ -3,7 +3,8 @@
 ## Version: 1.3.0
 ## Author: Walter Bennet
 ## Notes: 对《魔兽世界》原版副本手册的复刻，专为 |cffabd473TurtleWoW|r 打造！
-## SavedVariablesPerCharacter: IJ_FirstTimeBindingDone IJ_CompletedQuestIds IJ_QuestHistoryQueried, IJ_SortingMode
+## SavedVariables: IJ_FirstTimeBindingDone
+## SavedVariablesPerCharacter:  IJ_CompletedQuestIds IJ_QuestHistoryQueried
 ## X-URL: https://github.com/Arthur-Helias/InstanceJournal
 
 # Localization

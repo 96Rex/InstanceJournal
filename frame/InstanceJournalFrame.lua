@@ -204,13 +204,6 @@ function IJ_InstanceJournalFrame_OnLoad()
     instSelectHeader:SetTextColor(0.9, 0.78, 0.3)
     instSelectHeader:SetText(IJ_GUI_TABDUNGEONS)
 
-    local contDD = CreateFrame("Frame", "IJ_ContinentFilterDropDown", IJ_InstanceSelectPanel, "UIDropDownMenuTemplate")
-    contDD:SetPoint("TOPRIGHT", IJ_InstanceSelectPanel, "TOPRIGHT", 0, -10)
-    UIDropDownMenu_SetWidth(130, contDD)
-    UIDropDownMenu_Initialize(contDD, IJ_ContinentFilterDropDown_Initialize)
-    UIDropDownMenu_SetSelectedValue(contDD, "ALL")
-    UIDropDownMenu_SetText(IJ_GUI_ALLCONTINENTS, contDD)
-
     local gridScroll = IJ_MakeScrollArea("IJ_InstanceGridScroll", IJ_InstanceSelectPanel, IJ_FRAME_W - 81,
         IJ_FRAME_H - 198, nil, 2, -13, 2, -15)
     gridScroll:SetPoint("TOPLEFT", IJ_InstanceSelectPanel, "TOPLEFT", 0, -45)
