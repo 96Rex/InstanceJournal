@@ -313,8 +313,9 @@ function IJ_PopulateBossList(instance)
     end
 
     if bosses[1] then
-        IJ_ShowBoss(bosses[1])
+        -- IJ_ShowBoss(bosses[1])
         IJ_IsInstanceTabActive = true
+        IJ_ActiveInfoTab = 2  -- 确保是掉落标签页
         IJ_UpdateInfoTabs()
     end
 end
@@ -394,7 +395,9 @@ end
 
 function IJ_ShowEncounter(instance)
     if IJ_ActiveInfoTab == 3 then
-        IJ_ActiveInfoTab = 1
+        IJ_ActiveInfoTab = 2
+    else
+        IJ_ActiveInfoTab = 2
     end
 
     IJ_SelectedInstance = instance
