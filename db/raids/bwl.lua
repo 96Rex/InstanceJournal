@@ -706,6 +706,10 @@ BWL.Bosses = {
                 IJDB.I[19393],
                 DropChance = 16,
             },
+            [23] = {
+                IJDB.I[33084],
+                DropChance = 20,
+            },
         },
     },
     [9] = { -- NOTE: Missing abilities

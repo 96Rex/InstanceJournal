@@ -125,17 +125,31 @@ local function IJ_CollectSameNamePrereqs(quest, targetName, result, visited)
 end
 
 local function IJ_FindActiveChainQuest(candidates)
+	local withDepth = {}
+	
     for _, quest in ipairs(candidates) do
-        local idStr = tostring(quest.Id)
+        local sameNamePrereqs = {}
+
+        IJ_CollectSameNamePrereqs(quest, quest.Name, sameNamePrereqs, nil)
+
+        table.insert(withDepth, {
+            quest = quest,
+            depth = table.getn(sameNamePrereqs),
+            prereqs = sameNamePrereqs,
+        })
+    end
+
+    table.sort(withDepth, function(a, b)
+        return a.depth > b.depth
+    end)
+
+    for _, entry in ipairs(withDepth) do
+        local idStr = tostring(entry.quest.Id)
 
         if not IJ_CompletedQuestIds[idStr] then
-            local sameNamePrereqs = {}
-
-            IJ_CollectSameNamePrereqs(quest, quest.Name, sameNamePrereqs, nil)
-
             local allPrereqsDone = true
 
-            for _, prereq in ipairs(sameNamePrereqs) do
+            for _, prereq in ipairs(entry.prereqs) do
                 if not IJ_CompletedQuestIds[tostring(prereq.Id)] then
                     allPrereqsDone = false
 
@@ -144,14 +158,14 @@ local function IJ_FindActiveChainQuest(candidates)
             end
 
             if allPrereqsDone then
-                return quest
+                return entry.quest
             end
         end
     end
 
-    for _, quest in ipairs(candidates) do
-        if not IJ_CompletedQuestIds[tostring(quest.Id)] then
-            return quest
+    for _, entry in ipairs(withDepth) do
+        if not IJ_CompletedQuestIds[tostring(entry.quest.Id)] then
+            return entry.quest
         end
     end
 

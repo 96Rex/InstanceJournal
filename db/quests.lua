@@ -8391,6 +8391,7 @@ Q[80311] = {
     StartingPoints = { NPC[80857] },
     EndingPoints = { NPC[80831] },
     RequiredFaction = { IF.Horde },
+	RequiredClass = { IMCL.Mage, },
     RewardExperience = 1607,
     RewardCoin = 9642,
 }
@@ -8404,6 +8405,7 @@ Q[80312] = {
     StartingPoints = { NPC[80831] },
     EndingPoints = { NPC[80831] },
     RequiredFaction = { IF.Horde },
+	RequiredClass = { IMCL.Mage, },
     RewardExperience = 3367,
     RewardCoin = 20202,
     RewardItems = {

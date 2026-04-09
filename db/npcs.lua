@@ -1500,9 +1500,9 @@ NPC[80831] = {
 NPC[80857] = {
     Id = "80857",
     MapContinentId = IMI.Kalimdor,
-    MapZoneId = IZI.Durotar,
-    MapCoordinateX = 42.4,
-    MapCoordinateY = 9.4,
+    MapZoneId = IZI.Orgrimmar,
+    MapCoordinateX = 37.4,
+    MapCoordinateY = 85.5,
     Name = IJ_NPC_NAME_80857
 }
 
